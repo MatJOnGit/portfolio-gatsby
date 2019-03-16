@@ -11,10 +11,9 @@ export default ({ children }) => (
     <footer style={{ display: 'flex' }}>
         <p>All rights reserved</p>
         <ul>
-            <ListLink to="http://www.github.com">Github</ListLink>
-            <ListLink to="/training-and-jobs/">Twitter</ListLink>
-            <ListLink to="/projects/">Linkedin</ListLink>
+            <li><a href="https://github.com/MatJOnGit">Github</a></li>
+            <li><a href="https://twitter.com/MathieuJourdan3   ">Twitter</a></li>
+            <li><a href="https://www.linkedin.com/in/mathieu-jourdan/">Linkedin</a></li>
         </ul>
-        {children}
     </footer>
 )

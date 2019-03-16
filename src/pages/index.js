@@ -2,14 +2,10 @@ import React from "react"
 import Header from "../components/header"
 import Footer from "../components/footer"
 
-import teamworkPic from "./../../public/images/teamwork.jpg"
-import rigorPic from "./../../public/images/rigor.jpg"
-import curiosityPic from "./../../public/images/curiosity.jpg"
-
 const ValueBox = props => (
     <div>
-        <img src={props.url} alt={props.value} />
-        <p>#{props.value}</p>
+        <img src={require('./../../public/images/' + props.value + '.jpg')} alt={props.value} />
+        <p>{"#" + props.value.charAt(0).toUpperCase() + props.value.slice(1)}</p>
     </div>
 )
 
@@ -24,18 +20,12 @@ export default () => (
                 Hi !<br/>
                 I'm Mathieu. I'm a junior front-end developer, looking for a front-end web developer job in Paris area ...
             </p>
-            <div>
-                <img src={teamworkPic} alt="Teamwork" />
-                <p>#Teamwork</p>
-            </div>
 
-            <div>
-                <img src={rigorPic} alt="Rigor" />
-                <p>#Rigor</p>
-            </div>
+            <ValueBox value="teamwork"></ValueBox>
 
-            <ValueBox value="Rigor" url="rigorPic">
-            </ValueBox>
+            <ValueBox value="curiosity"></ValueBox>
+
+            <ValueBox value="rigor"></ValueBox>
         </div>
 
         <Footer>
