@@ -1,0 +1,34 @@
+footer {
+    margin: 0;
+    background-color: lightgrey;
+}
+
+footer p {
+    margin: 15px 5%;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom: 1px white solid;
+    text-align: center;
+    color: #FFF;
+}
+
+footer li {
+    width: 30%;
+    list-style: none;
+    margin: 10px 15px;
+    text-decoration: none;
+}
+
+footer p {
+    height: 35px;
+    text-align: center;
+}

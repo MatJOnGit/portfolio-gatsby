@@ -1,0 +1,40 @@
+.workplace-box {
+    border-bottom: 1px grey solid;
+    padding: 15px 5%;
+}
+
+workplace-header img {
+    width: 80%;
+}
+
+.workplace-header div:nth-child(1) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.workplace-box button {
+    margin-left: 5px;
+}
+
+.workplace-box span {
+    font-size: 1.4em;
+    text-decoration: none;
+}
+
+.workplace-box button {
+    background-color: dodgerblue;
+    padding: 5px 8px;
+    border-radius: 2px;
+    border: 0.5px royalblue solid;
+    color: white;
+}
+
+.workplace-box div:nth-child(2) p:nth-child(1),
+.workplace-box div:nth-child(2) p:nth-child(3) {
+    font-weight: bold;
+}
+
+.workplace-content {
+    display: none;
+}

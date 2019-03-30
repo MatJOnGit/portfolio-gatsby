@@ -29,7 +29,6 @@ const ProjectBox = props => (
 export default () => (
     <div>
         <Header>
-            <h3>portfolio page</h3>
         </Header>
 
         <div>

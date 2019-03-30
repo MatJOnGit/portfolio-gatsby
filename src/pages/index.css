@@ -1,0 +1,45 @@
+html {
+    font-family: 'Roboto';
+}
+
+.content {
+    margin : 5%;
+}
+
+img {
+    width: 100%;
+}
+
+.content > p {
+    font-size: 1.5em;
+}
+
+.value-box {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.value-box p {
+    position: absolute;
+    font-size: 2.7em;
+    color: white;
+}
+
+.teamwork-value,
+.curiosity-value,
+.rigor-value {
+    bottom: 80px;
+}
+
+.teamwork-value,
+.rigor-value {
+    right: 18px;
+}
+
+.curiosity-value {
+    left: 18px;
+}
+
+.value-box p {
+    margin: 0;
+}

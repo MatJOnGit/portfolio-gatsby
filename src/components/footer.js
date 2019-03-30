@@ -1,19 +1,13 @@
 import React from "react"
-import { Link } from "gatsby"
-
-const ListLink = props => (
-    <li style={{ display: `inline-block` }}>
-        <Link to={props.to}>{props.children}</Link>
-    </li>
-)
+import styles from './footer.css'
 
 export default ({ children }) => (
-    <footer style={{ display: 'flex' }}>
-        <p>All rights reserved</p>
+    <footer>
         <ul>
-            <li><a href="https://github.com/MatJOnGit">Github</a></li>
-            <li><a href="https://twitter.com/MathieuJourdan3   ">Twitter</a></li>
-            <li><a href="https://www.linkedin.com/in/mathieu-jourdan/">Linkedin</a></li>
+            <li style={{ display: `inline-block`, padding: `0 1rem`}}><a href="https://github.com/MatJOnGit">Github</a></li>
+            <li style={{ display: `inline-block`, padding: `0 1rem` }}><a href="https://twitter.com/MathieuJourdan3   ">Twitter</a></li>
+            <li style={{ display: `inline-block`, padding: `0 1rem` }}><a href="https://www.linkedin.com/in/mathieu-jourdan/">Linkedin</a></li>
         </ul>
+        <p>All rights reserved</p>
     </footer>
 )
