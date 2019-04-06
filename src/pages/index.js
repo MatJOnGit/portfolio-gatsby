@@ -12,8 +12,7 @@ const ValueBox = props => (
 
 export default () => (
     <div>
-        <Header>
-        </Header>
+        <Header />
 
         <div className={"content"}>
             <p>Hi !</p>
@@ -29,7 +28,6 @@ export default () => (
             <ValueBox value="rigor"></ValueBox>
         </div>
 
-        <Footer>
-        </Footer>
+        <Footer />
     </div>
 )

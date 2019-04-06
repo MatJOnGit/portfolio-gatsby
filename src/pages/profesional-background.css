@@ -1,10 +1,15 @@
 .workplace-box {
-    border-bottom: 1px grey solid;
-    padding: 15px 5%;
+    margin: 10px 5%;
+    /* padding: 5px 15px; */
+    border: 1px dimgrey solid;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.8);
+    background-color: white;
+    border-radius: 8px;
 }
 
-workplace-header img {
-    width: 80%;
+.workplace-header,
+.workplace-header img {
+    border-radius: 8px 8px 0 0;
 }
 
 .workplace-header div:nth-child(1) {
@@ -13,26 +18,29 @@ workplace-header img {
     justify-content: space-between;
 }
 
-.workplace-box button {
-    margin-left: 5px;
-}
-
 .workplace-box span {
     font-size: 1.4em;
     text-decoration: none;
 }
 
 .workplace-box button {
-    background-color: dodgerblue;
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
     padding: 5px 8px;
-    border-radius: 2px;
-    border: 0.5px royalblue solid;
-    color: white;
+
+    background-color: dodgerblue;
+    border: 1px black solid;
 }
 
 .workplace-box div:nth-child(2) p:nth-child(1),
 .workplace-box div:nth-child(2) p:nth-child(3) {
     font-weight: bold;
+}
+
+.workplace-header i {
+    font-size: 3em;
+    color: midnightblue;
 }
 
 .workplace-content {

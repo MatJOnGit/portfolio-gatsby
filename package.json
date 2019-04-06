@@ -13,6 +13,7 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   },
   "dependencies": {
+    "font-awesome": "^4.7.0",
     "gatsby": "^2.1.22",
     "gatsby-plugin-typography": "^2.2.8",
     "react": "^16.8.3",

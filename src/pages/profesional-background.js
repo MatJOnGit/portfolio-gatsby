@@ -2,6 +2,7 @@ import React from "react"
 import Header from "../components/header"
 import Footer from "../components/footer"
 import styles from './profesional-background.css'
+import 'font-awesome/css/font-awesome.min.css';
 
 const WorkplaceBox = props => (
     <div className={"workplace-box"}>
@@ -10,9 +11,9 @@ const WorkplaceBox = props => (
             <div>
                 <h4>{props.name}</h4>
                 <p>as {props.status}</p>
-                <p>{props.dates}</p>
+                <i className="fa fa-arrow-circle-down"></i>
             </div>
-            <button>See more</button>
+            <p>{props.dates}</p>
         </div>
 
         <div className={"workplace-content"}>
@@ -26,11 +27,10 @@ const WorkplaceBox = props => (
 
 
 export default () => (
-    <div>
-        <Header>
-        </Header>
+    <div className={"wrapper"}>
+        <Header />
 
-        <div>
+        <div className={"workplace-list"}>
             <WorkplaceBox
                 name={"Econocom"}
                 pictureName={"econocom"}
@@ -61,14 +61,13 @@ export default () => (
             <WorkplaceBox
                 name={"Bouygues Telecom"}
                 pictureName={"bouyguestel"}
-                status={"DSI trainee"}
+                status={"ISD trainee"}
                 context={"Part-time job"}
                 role={"Controle the whole IT stock infogérant's management"}
                 dates={"September 2010 - April 2012"}
             />
         </div>
 
-        <Footer>
-        </Footer>
+        <Footer />
     </div>
 )

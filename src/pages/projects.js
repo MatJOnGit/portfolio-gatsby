@@ -1,25 +1,23 @@
 import React from "react"
 import Header from "../components/header"
 import Footer from "../components/footer"
+import styles from './projects.css'
+import 'font-awesome/css/font-awesome.min.css';
 
 const ProjectBox = props => (
-    <div>
-        <div>
+    <div className={"project-box"}>
+        <div className={"project-summary"}>
             <h3>{props.name}</h3>
+            <i className="fa fa-arrow-circle-down"></i>
             <p>{props.type}</p>
-            <button>See more</button>
         </div>
 
-        <div>
-            <h4>Project details</h4>
+        <div className={"project-details"}>
             <ul>
-                <li>- {props.role}</li>
-                <li>- {props.goal}</li>
-                <li>- {props.technologies}</li>
+                <li>{props.role}</li>
+                <li>{props.goal}</li>
+                <li>{props.technologies}</li>
             </ul>
-        </div>
-
-        <div>
             <p><a href={props.github}>Github</a></p>
             <p><a href={props.link}>Link</a></p>
         </div>
@@ -28,16 +26,15 @@ const ProjectBox = props => (
 
 export default () => (
     <div>
-        <Header>
-        </Header>
+        <Header />
 
-        <div>
-            <button>All</button>
-            <button>Integration</button>
-            <button>CMS</button>
-            <button>Javascript / React</button>
-            <button>PHP / Symfony 4</button>
-        </div>
+        <ul className={"project-type-list"}>
+            <li>All</li>
+            <li>Integration</li>
+            <li>CMS</li>
+            <li>Javascript / React</li>
+            <li>PHP / Symfony 4</li>
+        </ul>
 
         <ProjectBox
             name={"Web Agency"}
@@ -93,7 +90,7 @@ export default () => (
             github={""}
             link={""}
         />
-        <Footer>
-        </Footer>
+
+        <Footer />
     </div>
 )

@@ -23,8 +23,7 @@ const Textareabox = props => (
 
 export default () => (
     <div>
-        <Header>
-        </Header>
+        <Header />
 
         <div>
             <p>Let's build our new friendship.</p>
@@ -37,7 +36,6 @@ export default () => (
             <Textareabox data="message"/>
         </form>
 
-        <Footer>
-        </Footer>
+        <Footer />
     </div>
 )

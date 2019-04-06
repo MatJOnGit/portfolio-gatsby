@@ -1,0 +1,74 @@
+.project-type-list {
+    list-style: none;
+    margin: 10px 5%;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.project-type-list li {
+    margin: 5px;
+    padding: 5px 8px;
+    background-color: midnightblue;
+    border: 1px black solid;
+    color: white;
+    box-shadow: 3px 3px darkgrey;
+}
+
+.project-box {
+    margin: 10px 5%;
+    padding: 15px;
+    border: 1px dimgrey solid;
+    background-color: rgb(249, 249, 249);
+    box-shadow: 2px 2px dimgrey;
+    border-radius: 5px;
+}
+
+.project-summary {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+h3,
+.project-summary p {
+    width: 80%;
+}
+
+h3 {
+    margin: 0;
+    color: midnightblue;
+    font-size: 1.5em;
+}
+
+.project-box p {
+    margin: 0;
+}
+
+.project-summary {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.project-summary button {
+    padding: 5px 8px;
+    border-radius: 2px;
+
+    background-color: dodgerblue;
+    border: 1px black solid;
+    color: white;
+    box-shadow: 3px 3px darkgrey;
+}
+
+.project-summary i {
+    font-size: 3em;
+    color: midnightblue;
+}
+
+.project-details a {
+    color: darkred;
+}
