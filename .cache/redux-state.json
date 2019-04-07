@@ -409,12 +409,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-04-05T06:44:45.652Z",
+      "buildTime": "2019-04-07T00:21:20.920Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "02b7854b5a88f2d6721238fcf1fbbba6",
+        "contentDigest": "d41c0d2c4d1a23cd99ee5e0cc2fc13fd",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -459,42 +459,42 @@
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /profesional-background/": {
-      "jsonName": "profesional-background-7d6",
-      "internalComponentName": "ComponentProfesionalBackground",
-      "path": "/profesional-background/",
-      "component": "/Users/bookiwii/Desktop/dev web/portfolio-gatsby/src/pages/profesional-background.js",
-      "componentChunkName": "component---src-pages-profesional-background-js",
+    "SitePage /recent-projects/": {
+      "jsonName": "recent-projects-a25",
+      "internalComponentName": "ComponentRecentProjects",
+      "path": "/recent-projects/",
+      "component": "/Users/bookiwii/Desktop/dev web/portfolio-gatsby/src/pages/recent-projects.js",
+      "componentChunkName": "component---src-pages-recent-projects-js",
       "context": {},
       "pluginCreator___NODE": "349480ab-26b9-51bc-aca8-44d26397d864",
       "pluginCreatorId": "349480ab-26b9-51bc-aca8-44d26397d864",
-      "componentPath": "/Users/bookiwii/Desktop/dev web/portfolio-gatsby/src/pages/profesional-background.js",
-      "id": "SitePage /profesional-background/",
+      "componentPath": "/Users/bookiwii/Desktop/dev web/portfolio-gatsby/src/pages/recent-projects.js",
+      "id": "SitePage /recent-projects/",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "1a4dfd1730d8dc063008c71756df1a84",
+        "contentDigest": "e93ffb1ab3d5edba27af27079a8da89b",
         "description": "349480ab-26b9-51bc-aca8-44d26397d864",
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /projects/": {
-      "jsonName": "projects-9e9",
-      "internalComponentName": "ComponentProjects",
-      "path": "/projects/",
-      "component": "/Users/bookiwii/Desktop/dev web/portfolio-gatsby/src/pages/projects.js",
-      "componentChunkName": "component---src-pages-projects-js",
+    "SitePage /curriculum/": {
+      "jsonName": "curriculum-e73",
+      "internalComponentName": "ComponentCurriculum",
+      "path": "/curriculum/",
+      "component": "/Users/bookiwii/Desktop/dev web/portfolio-gatsby/src/pages/curriculum.js",
+      "componentChunkName": "component---src-pages-curriculum-js",
       "context": {},
       "pluginCreator___NODE": "349480ab-26b9-51bc-aca8-44d26397d864",
       "pluginCreatorId": "349480ab-26b9-51bc-aca8-44d26397d864",
-      "componentPath": "/Users/bookiwii/Desktop/dev web/portfolio-gatsby/src/pages/projects.js",
-      "id": "SitePage /projects/",
+      "componentPath": "/Users/bookiwii/Desktop/dev web/portfolio-gatsby/src/pages/curriculum.js",
+      "id": "SitePage /curriculum/",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "29c4891fb7d270aab2e2babb761d33be",
+        "contentDigest": "6d7f754f510b9404a6cb793e020d047e",
         "description": "349480ab-26b9-51bc-aca8-44d26397d864",
         "owner": "internal-data-bridge"
       }
@@ -514,7 +514,9 @@
     "contact-26a": "686/path---contact-26-a-cd9-NZuapzHg3X9TaN1iIixfv1W23E",
     "projects-9e9": "545/path---projects-9-e-9-957-NZuapzHg3X9TaN1iIixfv1W23E",
     "training-and-jobs-daa": "793/path---training-and-jobs-daa-563-NZuapzHg3X9TaN1iIixfv1W23E",
-    "profesional-background-7d6": "540/path---profesional-background-7-d-6-bbf-NZuapzHg3X9TaN1iIixfv1W23E"
+    "profesional-background-7d6": "540/path---profesional-background-7-d-6-bbf-NZuapzHg3X9TaN1iIixfv1W23E",
+    "recent-projects-a25": "179/path---recent-projects-a-25-a89-NZuapzHg3X9TaN1iIixfv1W23E",
+    "curriculum-e73": "303/path---curriculum-e-73-9b7-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
     "/Users/bookiwii/Desktop/dev web/portfolio-gatsby/.cache/dev-404-page.js": {
@@ -529,13 +531,13 @@
       "query": "",
       "componentPath": "/Users/bookiwii/Desktop/dev web/portfolio-gatsby/src/pages/index.js"
     },
-    "/Users/bookiwii/Desktop/dev web/portfolio-gatsby/src/pages/profesional-background.js": {
+    "/Users/bookiwii/Desktop/dev web/portfolio-gatsby/src/pages/recent-projects.js": {
       "query": "",
-      "componentPath": "/Users/bookiwii/Desktop/dev web/portfolio-gatsby/src/pages/profesional-background.js"
+      "componentPath": "/Users/bookiwii/Desktop/dev web/portfolio-gatsby/src/pages/recent-projects.js"
     },
-    "/Users/bookiwii/Desktop/dev web/portfolio-gatsby/src/pages/projects.js": {
+    "/Users/bookiwii/Desktop/dev web/portfolio-gatsby/src/pages/curriculum.js": {
       "query": "",
-      "componentPath": "/Users/bookiwii/Desktop/dev web/portfolio-gatsby/src/pages/projects.js"
+      "componentPath": "/Users/bookiwii/Desktop/dev web/portfolio-gatsby/src/pages/curriculum.js"
     }
   },
   "staticQueryComponents": {}

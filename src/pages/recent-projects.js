@@ -1,7 +1,7 @@
 import React from "react"
 import Header from "../components/header"
 import Footer from "../components/footer"
-import styles from './projects.css'
+import styles from './recent-projects.css'
 import 'font-awesome/css/font-awesome.min.css';
 
 const ProjectBox = props => (

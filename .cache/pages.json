@@ -10,18 +10,18 @@
         "path": "/contact/"
     },
     {
+        "componentChunkName": "component---src-pages-curriculum-js",
+        "jsonName": "curriculum-e73",
+        "path": "/curriculum/"
+    },
+    {
         "componentChunkName": "component---cache-dev-404-page-js",
         "jsonName": "dev-404-page-5f9",
         "path": "/dev-404-page/"
     },
     {
-        "componentChunkName": "component---src-pages-profesional-background-js",
-        "jsonName": "profesional-background-7d6",
-        "path": "/profesional-background/"
-    },
-    {
-        "componentChunkName": "component---src-pages-projects-js",
-        "jsonName": "projects-9e9",
-        "path": "/projects/"
+        "componentChunkName": "component---src-pages-recent-projects-js",
+        "jsonName": "recent-projects-a25",
+        "path": "/recent-projects/"
     }
 ]

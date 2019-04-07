@@ -1,22 +1,22 @@
 import React from "react"
 import Header from "../components/header"
 import Footer from "../components/footer"
-import styles from './profesional-background.css'
+import styles from './curriculum.css'
 import 'font-awesome/css/font-awesome.min.css';
 
 const WorkplaceBox = props => (
     <div className={"workplace-box"}>
         <div className={"workplace-header"}>
             <img src={require("./../../public/images/logos/" + props.pictureName + ".jpg")} alt={"logo " + props.pictureName}/>
-            <div>
-                <h4>{props.name}</h4>
-                <p>as {props.status}</p>
+            <div className={"workplace-layer"}>
+                <p>{props.status}</p>
                 <i className="fa fa-arrow-circle-down"></i>
             </div>
-            <p>{props.dates}</p>
         </div>
 
         <div className={"workplace-content"}>
+            <p>Dates :</p>
+            <p>{props.dates}</p>
             <p>Context :</p>
             <p>{props.context}</p>
             <p>Role :</p>
@@ -52,7 +52,7 @@ export default () => (
             <WorkplaceBox
                 name={"Jean-Pierre Vernant High School"}
                 pictureName={"jpvernant"}
-                status={"Conversante administrative employee"}
+                status={"Administrative employee"}
                 context={"Common tasks in a french high school administration"}
                 role={"Ensure the proper functioning of print machines and inventory " +
                 "replenishments. Assist administratives on office automation issures."}

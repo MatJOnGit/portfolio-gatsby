@@ -1,21 +1,33 @@
 .workplace-box {
     margin: 10px 5%;
-    /* padding: 5px 15px; */
     border: 1px dimgrey solid;
-    box-shadow: 2px 2px rgba(0, 0, 0, 0.8);
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.3);
     background-color: white;
     border-radius: 8px;
 }
 
-.workplace-header,
 .workplace-header img {
+    width: 98%;
+    height: 195px;
     border-radius: 8px 8px 0 0;
+    display: block;
+    margin: 3px auto auto;
 }
 
-.workplace-header div:nth-child(1) {
+.workplace-layer {
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+}
+
+.workplace-layer p {
+    margin-left: 5%;
+}
+
+.workplace-layer p {
+    display: block;
 }
 
 .workplace-box span {
@@ -41,6 +53,8 @@
 .workplace-header i {
     font-size: 3em;
     color: midnightblue;
+    margin-right: 5%;
+    padding: 5px;
 }
 
 .workplace-content {

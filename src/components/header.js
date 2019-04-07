@@ -18,8 +18,8 @@ export default ({ children }) => (
         </div>
         <ul>
                 <ListLink to="/">About me</ListLink>
-                <ListLink to="/profesional-background/">Profesional background</ListLink>
-                <ListLink to="/projects/">Projects</ListLink>
+                <ListLink to="/curriculum/">Curriculum vitae</ListLink>
+                <ListLink to="/recent-projects/">Recent projects</ListLink>
                 <ListLink to="/contact/">Contact</ListLink>
         </ul>
     </header>
