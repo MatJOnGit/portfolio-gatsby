@@ -1,3 +1,13 @@
+header {
+    position: fixed;
+    height: 160px;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    background-color: rgb(245, 245, 245);
+}
+
 .banner {
     height: 100px;
     padding: 0 5%;
@@ -6,14 +16,13 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(100, 100, 100);
+    background-color: rgb(183, 21, 64);
 }
 
 h1, h2 {
     width: 40%;
     margin: 0;
     text-align: center;
-    /*color: midnightblue;*/
     color: white;
 }
 
@@ -26,10 +35,7 @@ header ul {
     justify-content: space-between;
     align-items: center;
 
-    background-color: rgb(200, 200, 200);
-
-    border-top: 1px rgb(175, 175, 175) solid;
-    border-bottom: 1px rgb(175, 175, 175) solid;
+    border-bottom: 1px rgb(183, 21, 64) solid;
 
     text-align: center;
     color: #FFF;
@@ -37,12 +43,6 @@ header ul {
 
 header li {
     margin: 0;
-}
-
-li a {
-    text-decoration: none;
-    color: midnightblue;
-    font-weight: 700;
 }
 
 header li {

@@ -13,6 +13,7 @@
     padding: 5px 8px;
     background-color: midnightblue;
     border: 1px black solid;
+    border-radius: 7px;
     color: white;
     box-shadow: 3px 3px darkgrey;
 }

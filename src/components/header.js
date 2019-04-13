@@ -17,10 +17,12 @@ export default ({ children }) => (
             <h2>Junior frontend developer</h2>
         </div>
         <ul>
-                <ListLink to="/">About me</ListLink>
-                <ListLink to="/curriculum/">Curriculum vitae</ListLink>
-                <ListLink to="/recent-projects/">Recent projects</ListLink>
-                <ListLink to="/contact/">Contact</ListLink>
+            <ListLink to="/">About me</ListLink>
+            <ListLink to="/resume/">Resume</ListLink>
+            <ListLink to="/recent-projects/">Recent projects</ListLink>
+            <ListLink to="/contact/">Contact</ListLink>
         </ul>
     </header>
 )
+
+/* Tester un header avec, dans l'ordre et pour mobile, Icon - (Mathieu Jourdan | {Nom de la page} - Burger Menu */

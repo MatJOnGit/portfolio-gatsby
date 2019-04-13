@@ -1,7 +1,7 @@
 import React from "react"
 import Header from "../components/header"
 import Footer from "../components/footer"
-import styles from './curriculum.css'
+import styles from './resume.css'
 import 'font-awesome/css/font-awesome.min.css';
 
 const WorkplaceBox = props => (
@@ -30,7 +30,7 @@ export default () => (
     <div className={"wrapper"}>
         <Header />
 
-        <div className={"workplace-list"}>
+        <div className={"content"}>
             <WorkplaceBox
                 name={"Econocom"}
                 pictureName={"econocom"}

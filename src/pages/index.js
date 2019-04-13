@@ -11,21 +11,39 @@ const ValueBox = props => (
 )
 
 export default () => (
-    <div>
+    <div className={"wrapper"}>
         <Header />
 
         <div className={"content"}>
             <p>Hi !</p>
-            <p>
+            <p className={"subtitled"}>
                 I'm Mathieu. I'm a junior front-end developer, looking
                 for a front-end web developer job in Paris area.
             </p>
 
-            <ValueBox value="teamwork"></ValueBox>
-
             <ValueBox value="curiosity"></ValueBox>
 
+            <p className={"subtitled"}>
+                I started self-teaching web development a little more than
+                a year ago, and felt in love with it.
+                That's the moment I decided to make a living out of it.
+            </p>
+
             <ValueBox value="rigor"></ValueBox>
+
+            <p className={"subtitled"}>
+                Why I love about web development ? Simply because I love being able to create
+                beautiful and powerful websites, always trying to understand the needs
+                and how I can answer it at my best.
+            </p>
+
+            <ValueBox value="teamwork"></ValueBox>
+
+            <p>
+                What I like the most in this industry ? Always having great people around
+                willing to help each other, and contribute to that spirit by helping future
+                great web developers.
+            </p>
         </div>
 
         <Footer />

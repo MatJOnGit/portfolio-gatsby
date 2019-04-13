@@ -2,3 +2,17 @@ body {
     margin: 0;
     background-color: rgb(245, 245, 245);
 }
+
+
+header li a,
+footer li a {
+    font-size: 1.2em;
+    text-decoration: none;
+    color: midnightblue;
+    font-weight: 700;
+}
+
+.content {
+    margin-top: 360px;
+    margin-bottom: 100px;
+}

@@ -1,10 +1,9 @@
 footer {
     margin: 0;
-    background-color: lightgrey;
-}
-
-footer p {
-    margin: 15px 5%;
+    background-color: rgb(183, 21, 64);
+    position: fixed;
+    bottom: 0;
+    height: 70px;
 }
 
 footer ul {
@@ -16,7 +15,6 @@ footer ul {
     justify-content: space-between;
     align-items: center;
 
-    border-bottom: 1px white solid;
     text-align: center;
     color: #FFF;
 }
@@ -31,4 +29,10 @@ footer li {
 footer p {
     height: 35px;
     text-align: center;
+    margin: 0;
+    color: white;
+}
+
+footer li a {
+    color: white;
 }

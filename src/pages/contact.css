@@ -1,0 +1,27 @@
+.content {
+    margin: 180px 15px 100px 15px;
+}
+
+form > div {
+    padding: 5px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    font-family: Roboto;
+}
+
+form button {
+    margin: 5px;
+    padding: 5px 8px;
+    background-color: midnightblue;
+    border: 1px black solid;
+    color: white;
+    box-shadow: 3px 3px darkgrey;
+}
+
+input,
+textarea {
+    border: 1px darkgrey solid;
+}

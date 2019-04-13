@@ -9,6 +9,6 @@ exports.components = {
   "component---src-pages-contact-js": hot(preferDefault(require("/Users/bookiwii/Desktop/dev web/portfolio-gatsby/src/pages/contact.js"))),
   "component---src-pages-index-js": hot(preferDefault(require("/Users/bookiwii/Desktop/dev web/portfolio-gatsby/src/pages/index.js"))),
   "component---src-pages-recent-projects-js": hot(preferDefault(require("/Users/bookiwii/Desktop/dev web/portfolio-gatsby/src/pages/recent-projects.js"))),
-  "component---src-pages-curriculum-js": hot(preferDefault(require("/Users/bookiwii/Desktop/dev web/portfolio-gatsby/src/pages/curriculum.js")))
+  "component---src-pages-resume-js": hot(preferDefault(require("/Users/bookiwii/Desktop/dev web/portfolio-gatsby/src/pages/resume.js")))
 }
 
