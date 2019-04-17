@@ -11,10 +11,12 @@ const ListLink = props => (
 export default ({ children }) => (
     <header>
         <div className={"banner"}>
-            <h1>
-                Mathieu Jourdan
-            </h1>
-            <h2>Junior frontend developer</h2>
+            <img src={require('../../public/images/logos/mj-logo.png')} alt={"logo Mathieu Jourdan"}/>
+            <div className={"title"}>
+                <h1>Mathieu Jourdan</h1>
+                <h2>Junior frontend developer</h2>
+            </div>
+            <div className={"burger-menu"}></div>
         </div>
         <ul>
             <ListLink to="/">About me</ListLink>
@@ -24,5 +26,3 @@ export default ({ children }) => (
         </ul>
     </header>
 )
-
-/* Tester un header avec, dans l'ordre et pour mobile, Icon - (Mathieu Jourdan | {Nom de la page} - Burger Menu */

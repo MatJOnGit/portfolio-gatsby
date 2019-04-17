@@ -9,14 +9,14 @@ const ProjectBox = props => (
         <div className={"project-summary"}>
             <h3>{props.name}</h3>
             <i className="fa fa-arrow-circle-down"></i>
-            <p>{props.type}</p>
+            <p className={"project-type"}>{props.type}</p>
         </div>
 
         <div className={"project-details"}>
             <ul>
-                <li>{props.role}</li>
-                <li>{props.goal}</li>
-                <li>{props.technologies}</li>
+                <li><i className="fa fa-briefcase"></i>{props.role}</li>
+                <li><i className="fa fa-bullseye"></i>{props.goal}</li>
+                <li><i className="fa fa-code"></i>{props.technologies}</li>
             </ul>
             <p><a href={props.github}>Github</a></p>
             <p><a href={props.link}>Run project</a></p>
@@ -30,11 +30,11 @@ export default () => (
 
         <div className={"content"}>
             <ul className={"project-type-list"}>
-                <li>All</li>
-                <li>Integration</li>
-                <li>CMS</li>
-                <li>Javascript / React</li>
-                <li>PHP / Symfony 4</li>
+                <li className={"rounded"}>All</li>
+                <li className={"rounded"}>Integration</li>
+                <li className={"rounded"}>CMS</li>
+                <li className={"rounded"}>Javascript / React</li>
+                <li className={"rounded"}>PHP / Symfony 4</li>
             </ul>
 
             <ProjectBox

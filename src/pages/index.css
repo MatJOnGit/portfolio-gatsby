@@ -2,13 +2,9 @@ html {
     font-family: 'Roboto';
 }
 
-img {
+.content img {
     width: 100%;
     height: 230px;
-}
-
-.content > p {
-    font-size: 1.3em;
 }
 
 .value-box {

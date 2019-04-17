@@ -8,14 +8,18 @@
     flex-wrap: wrap;
 }
 
+.project-details ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.project-details i {
+    margin: 0 5px 0;
+}
+
 .project-type-list li {
-    margin: 5px;
-    padding: 5px 8px;
     background-color: midnightblue;
-    border: 1px black solid;
-    border-radius: 7px;
-    color: white;
-    box-shadow: 3px 3px darkgrey;
 }
 
 .project-box {
@@ -42,7 +46,7 @@ h3,
 h3 {
     margin: 0;
     color: midnightblue;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 .project-box p {
@@ -66,7 +70,7 @@ h3 {
 }
 
 .project-summary i {
-    font-size: 3em;
+    font-size: 2.2em;
     color: midnightblue;
 }
 

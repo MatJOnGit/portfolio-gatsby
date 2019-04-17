@@ -32,7 +32,7 @@ export default () => (
             <ValueBox value="rigor"></ValueBox>
 
             <p className={"subtitled"}>
-                Why I love about web development ? Simply because I love being able to create
+                Why I love web development ? Simply because I love being able to create
                 beautiful and powerful websites, always trying to understand the needs
                 and how I can answer it at my best.
             </p>

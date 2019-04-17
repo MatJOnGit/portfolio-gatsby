@@ -28,7 +28,7 @@ export default () => (
                     <label htmlFor="message">Message</label>
                     <textarea name="message" placeholder="Tell me what I can do for you" rows="5" col="3"></textarea>
                 </div>
-                <button type={"submit"}>Send</button>
+                <button type={"submit"} className={"rounded"}>Send</button>
             </form>
         </div>
 
