@@ -4,12 +4,12 @@
     box-shadow: 2px 2px rgba(0, 0, 0, 0.3);
     background-color: white;
     border-radius: 8px;
+    font-size: 0.9em;
 }
 
 .workplace-header img {
     width: 96%;
     height: 170px;
-    border: 1px grey solid;
     border-radius: 8px 8px 0 0;
     display: block;
     margin: 6px auto auto;
@@ -25,7 +25,6 @@
 
 .workplace-layer p {
     margin-left: 5%;
-    font-size: 0.9em;
 }
 
 .workplace-layer p {
@@ -48,7 +47,8 @@
 }
 
 .workplace-box div:nth-child(2) p:nth-child(1),
-.workplace-box div:nth-child(2) p:nth-child(3) {
+.workplace-box div:nth-child(2) p:nth-child(3),
+.workplace-box div:nth-child(2) p:nth-child(5) {
     font-weight: bold;
 }
 
@@ -60,6 +60,5 @@
 }
 
 .workplace-content {
-    display: none;
     margin: 0 5%;
 }

@@ -58,7 +58,7 @@ export default () => (
             <ProjectBox
                 name={"Ve'Lyon"}
                 type={"Web app"}
-                role={"Front development"}
+                role={"Frontend development"}
                 goal={"Display a interactive map to help bickers booking bikes in Lyon"}
                 technologies={"HTML5, CSS3, Javascript, jQuery, API"}
                 github={"https://github.com/MatJOnGit/Ve-Lyon"}
@@ -67,7 +67,7 @@ export default () => (
             <ProjectBox
                 name={"One way ticket to Alaska"}
                 type={"Blog"}
-                role={"Front and backend development"}
+                role={"Frontend & backend development"}
                 goal={"Develop a whole blog system and its backoffice to help a writer publishing his book through blog articles"}
                 technologies={"HTML5, CSS3, Javascript, PHP, MySQL"}
                 github={"https://github.com/MatJOnGit/One-way-ticket-to-Alaska"}
@@ -75,8 +75,8 @@ export default () => (
             />
             <ProjectBox
                 name={"Personal portfolio"}
-                type={"Front website"}
-                role={"Front development"}
+                type={"Portfolio"}
+                role={"Frontend development"}
                 goal={"Develop a simple and interactive interface to present my own profil"}
                 technologies={"CSS3, Javascript, ReactJS, GatsbyJS"}
                 github={""}
@@ -85,7 +85,7 @@ export default () => (
             <ProjectBox
                 name={"Tough n' Sound"}
                 type={"Web app"}
-                role={"Front and backend development"}
+                role={"Frontend & backend development"}
                 goal={"Develop an easy-to-use and complete website to help users customize their own sportive training"}
                 technologies={"CSS3, Javascript, Symfony 4"}
                 github={""}

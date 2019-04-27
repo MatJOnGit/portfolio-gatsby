@@ -1,11 +1,12 @@
 header {
     position: fixed;
-    height: 128px;
+    height: 134px;
     top: 0;
     right: 0;
     left: 0;
     z-index: 999;
     background-color: rgb(245, 245, 245);
+    font-family: 'Caviar Dreams';
 }
 
 .banner {
@@ -31,7 +32,6 @@ header {
 }
 
 h1, h2 {
-    font-family: 'Caviar Dreams';
     font-size: 0.9em;
     margin: 0;
     text-align: center;
@@ -59,6 +59,7 @@ header li {
 
 header li {
     width: 25%;
+    height: 100%;
     list-style: none;
     padding: 8px 0;
     text-decoration: none;
