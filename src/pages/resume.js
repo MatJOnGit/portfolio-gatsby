@@ -38,7 +38,7 @@ export default class Resume extends React.PureComponent {
                         status={"Administrative employee"}
                         context={"Common tasks in a french high school administration"}
                         role={"Ensure the proper functioning of print machines and inventory " +
-                        "replenishments. Assist administratives on office automation issures."}
+                        "replenishments. Assist administratives on office automation issues."}
                         dates={"April 2014 - April 2016"}
                     />
                     <WorkplaceBox
@@ -46,7 +46,7 @@ export default class Resume extends React.PureComponent {
                         pictureName={"bouyguestel"}
                         status={"ISD trainee"}
                         context={"Part-time job"}
-                        role={"Controle the whole IT stock infogérant's management"}
+                        role={"Controle the whole IT stock outsourcer's management"}
                         dates={"September 2010 - April 2012"}
                     />
                 </div>

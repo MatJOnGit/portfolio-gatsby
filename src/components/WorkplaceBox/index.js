@@ -1,30 +1,59 @@
 import React from "react"
+import PropTypes from 'proptypes'
 
 export default class WorkplaceBox extends React.Component {
+    static propTypes = {
+        name: PropTypes.string.isRequired,
+        pictureName: PropTypes.string.isRequired,
+        status: PropTypes.string.isRequired,
+        context: PropTypes.string.isRequired,
+        role: PropTypes.string.isRequired,
+        dates: PropTypes.string.isRequired
+    }
+
+    state = {
+        isBoxExpanded: false
+    }
+
+    toggleBox = () => {
+        this.setState({
+            isBoxExpanded: !this.state.isBoxExpanded
+        })
+    }
 
     render() {
+        const { pictureName, status, dates, context, role } = this.props
+        const { isBoxExpanded } = this.state
+
         return (
-            <div className={"workplace-box"}>
+            <div
+                className={"workplace-box"}
+                onClick={this.toggleBox}
+            >
                 <div className={"workplace-header"}>
                     <img
                         src={require("../../../public/images/logos/" +
-                            this.props.pictureName +
+                            pictureName +
                             ".jpg")}
-                        alt={"logo " + this.props.pictureName}
+                        alt={"logo " + pictureName}
                     />
                     <div className={"workplace-layer"}>
-                        <p>{this.props.status}</p>
-                        <i className={'fa fa-arrow-circle-down'} />
+                        <p>{status}</p>
+                        <i className={
+                            isBoxExpanded ? 'fa fa-arrow-circle-up' : 'fa fa-arrow-circle-down'
+                        } />
                     </div>
                 </div>
-                <div className={"workplace-content"}>
-                    <p>Dates :</p>
-                    <p>{this.props.dates}</p>
-                    <p>Context :</p>
-                    <p>{this.props.context}</p>
-                    <p>Role :</p>
-                    <p>{this.props.role}</p>
-                </div>
+                {!isBoxExpanded ? null : (
+                    <div className={"workplace-content"}>
+                        <p>Dates :</p>
+                        <p>{dates}</p>
+                        <p>Context :</p>
+                        <p>{context}</p>
+                        <p>Role :</p>
+                        <p>{role}</p>
+                    </div>
+                )}
             </div>
         )
     }
