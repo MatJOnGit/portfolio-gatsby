@@ -3,12 +3,7 @@ import PropTypes from 'proptypes'
 
 export default class WorkplaceBox extends React.Component {
     static propTypes = {
-        name: PropTypes.string.isRequired,
-        pictureName: PropTypes.string.isRequired,
-        status: PropTypes.string.isRequired,
-        context: PropTypes.string.isRequired,
-        role: PropTypes.string.isRequired,
-        dates: PropTypes.string.isRequired
+        name: PropTypes.string.isRequired
     }
 
     state = {
