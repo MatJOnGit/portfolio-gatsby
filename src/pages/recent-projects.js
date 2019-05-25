@@ -20,8 +20,8 @@ export default class RecentProjects extends React.PureComponent {
                         <li className={"rounded"}>All</li>
                         <li className={"rounded"}>Integration</li>
                         <li className={"rounded"}>CMS</li>
-                        <li className={"rounded"}>Javascript / React</li>
-                        <li className={"rounded"}>PHP / Symfony 4</li>
+                        <li className={"rounded"}>Javascript</li>
+                        <li className={"rounded"}>PHP</li>
                     </ul>
 
                     {recentProjectsInfo.map(projectItem => (

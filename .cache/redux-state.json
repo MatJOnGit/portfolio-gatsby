@@ -4,24 +4,24 @@
       "jsonName": "dev-404-page-5f9",
       "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "C:/Users/mathieu/Desktop/Dev/Projects/Perso/React/portfolio-gatsby/.cache/dev-404-page.js",
+      "component": "D:/Development/Projects/Perso/React/portfolio-gatsby/.cache/dev-404-page.js",
       "componentChunkName": "component---cache-dev-404-page-js",
       "context": {},
       "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
       "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
-      "componentPath": "C:/Users/mathieu/Desktop/Dev/Projects/Perso/React/portfolio-gatsby/.cache/dev-404-page.js",
+      "componentPath": "D:/Development/Projects/Perso/React/portfolio-gatsby/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "370f06292e5af84ba7bab7915fbaf52c",
+        "contentDigest": "c254e96feed140088f9fe463b2c5d896",
         "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
         "owner": "internal-data-bridge"
       }
     },
     "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5": {
-      "resolve": "C:/Users/mathieu/Desktop/Dev/Projects/Perso/React/portfolio-gatsby/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "resolve": "D:/Development/Projects/Perso/React/portfolio-gatsby/node_modules/gatsby/dist/internal-plugins/dev-404-page",
       "id": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
       "name": "dev-404-page",
       "version": "1.0.0",
@@ -33,7 +33,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "C:/Users/mathieu/Desktop/Dev/Projects/Perso/React/portfolio-gatsby/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "pluginFilepath": "D:/Development/Projects/Perso/React/portfolio-gatsby/node_modules/gatsby/dist/internal-plugins/dev-404-page",
       "packageJson": {
         "name": "dev-404-page",
         "description": "Internal plugin to add a 404 page in development with helpful information",
@@ -50,13 +50,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "62f3ea02827de641965ac452e154c45d",
+        "contentDigest": "f376fc2df0921a039c3ee74785e89d32",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "1fc32581-893a-55e8-8927-bcd667e2b700": {
-      "resolve": "C:/Users/mathieu/Desktop/Dev/Projects/Perso/React/portfolio-gatsby/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "resolve": "D:/Development/Projects/Perso/React/portfolio-gatsby/node_modules/gatsby/dist/internal-plugins/load-babel-config",
       "id": "1fc32581-893a-55e8-8927-bcd667e2b700",
       "name": "load-babel-config",
       "version": "1.0.0",
@@ -68,7 +68,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "C:/Users/mathieu/Desktop/Dev/Projects/Perso/React/portfolio-gatsby/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "pluginFilepath": "D:/Development/Projects/Perso/React/portfolio-gatsby/node_modules/gatsby/dist/internal-plugins/load-babel-config",
       "packageJson": {
         "name": "load-babel-config",
         "description": "Internal plugin that handles loading Babel configs",
@@ -85,13 +85,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "0f0560144b2811333f381a3dfca19798",
+        "contentDigest": "3e5d2436d4983f4f679c751d60294da0",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "a5079d69-ba80-53dc-82f9-0f440bd5448c": {
-      "resolve": "C:/Users/mathieu/Desktop/Dev/Projects/Perso/React/portfolio-gatsby/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "resolve": "D:/Development/Projects/Perso/React/portfolio-gatsby/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
       "id": "a5079d69-ba80-53dc-82f9-0f440bd5448c",
       "name": "internal-data-bridge",
       "version": "1.0.0",
@@ -104,7 +104,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "C:/Users/mathieu/Desktop/Dev/Projects/Perso/React/portfolio-gatsby/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "pluginFilepath": "D:/Development/Projects/Perso/React/portfolio-gatsby/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
       "packageJson": {
         "name": "internal-data-bridge",
         "description": "An internal Gatsby plugin which creates data nodes from internal data",
@@ -121,13 +121,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "1641e848f1f3b515399ed6f20888e8be",
+        "contentDigest": "7ce6169b0221f24cb44d52a77602a748",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "f795702c-a3b8-5a88-88ee-5d06019d44fa": {
-      "resolve": "C:/Users/mathieu/Desktop/Dev/Projects/Perso/React/portfolio-gatsby/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "resolve": "D:/Development/Projects/Perso/React/portfolio-gatsby/node_modules/gatsby/dist/internal-plugins/prod-404",
       "id": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
       "name": "prod-404",
       "version": "1.0.0",
@@ -139,7 +139,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "C:/Users/mathieu/Desktop/Dev/Projects/Perso/React/portfolio-gatsby/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "pluginFilepath": "D:/Development/Projects/Perso/React/portfolio-gatsby/node_modules/gatsby/dist/internal-plugins/prod-404",
       "packageJson": {
         "name": "prod-404",
         "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
@@ -156,13 +156,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "ed126e8b06c28f24b2fb5520c03cead0",
+        "contentDigest": "b2ded48d39c9ca5a904fe373efdc7722",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "84dad27f-1d44-51fc-ac56-4db2e5222995": {
-      "resolve": "C:/Users/mathieu/Desktop/Dev/Projects/Perso/React/portfolio-gatsby/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "resolve": "D:/Development/Projects/Perso/React/portfolio-gatsby/node_modules/gatsby/dist/internal-plugins/query-runner",
       "id": "84dad27f-1d44-51fc-ac56-4db2e5222995",
       "name": "query-runner",
       "version": "1.0.0",
@@ -174,7 +174,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "C:/Users/mathieu/Desktop/Dev/Projects/Perso/React/portfolio-gatsby/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "pluginFilepath": "D:/Development/Projects/Perso/React/portfolio-gatsby/node_modules/gatsby/dist/internal-plugins/query-runner",
       "packageJson": {
         "name": "query-runner",
         "description": "Internal plugin for running queries",
@@ -191,13 +191,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "e94a8bae3c49f291fef3374c395a2631",
+        "contentDigest": "0bf248b7698ad3f3109dd24d6fc43da7",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "6f4b2fa9-66b5-5205-a03f-140005a2cfe5": {
-      "resolve": "C:/Users/mathieu/Desktop/Dev/Projects/Perso/React/portfolio-gatsby/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "resolve": "D:/Development/Projects/Perso/React/portfolio-gatsby/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
       "id": "6f4b2fa9-66b5-5205-a03f-140005a2cfe5",
       "name": "webpack-theme-component-shadowing",
       "version": "1.0.0",
@@ -209,7 +209,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "C:/Users/mathieu/Desktop/Dev/Projects/Perso/React/portfolio-gatsby/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "pluginFilepath": "D:/Development/Projects/Perso/React/portfolio-gatsby/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
       "packageJson": {
         "name": "webpack-theme-component-shadowing",
         "description": "An internal Gatsby plugin which handles configuring webpack to ensure theme components fall back from the user's site to theme modules.",
@@ -226,13 +226,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "23a134caae12d9a46db4d18103a1fdde",
+        "contentDigest": "425575c446a7400de0f073d9689107d4",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
-      "resolve": "C:/Users/mathieu/Desktop/Dev/Projects/Perso/React/portfolio-gatsby",
+      "resolve": "D:/Development/Projects/Perso/React/portfolio-gatsby",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
       "version": "1765dc1a09ca4259f2c6e13db0f4cc1d",
@@ -242,7 +242,7 @@
       "nodeAPIs": [],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "C:/Users/mathieu/Desktop/Dev/Projects/Perso/React/portfolio-gatsby",
+      "pluginFilepath": "D:/Development/Projects/Perso/React/portfolio-gatsby",
       "packageJson": {
         "name": "gatsby-starter-hello-world",
         "description": "A simplified bare-bones starter for Gatsby",
@@ -260,6 +260,10 @@
           {
             "name": "gatsby-plugin-typography",
             "version": "^2.2.8"
+          },
+          {
+            "name": "proptypes",
+            "version": "^1.1.0"
           },
           {
             "name": "react",
@@ -295,19 +299,19 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "3eb37e979ba47442bf921c5864708ec2",
+        "contentDigest": "f4dad66131c19f1f010fad72bf335c20",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "d1ab4681-c67e-58d2-a1d4-ed4a6a1ad3cf": {
-      "resolve": "C:/Users/mathieu/Desktop/Dev/Projects/Perso/React/portfolio-gatsby/node_modules/gatsby-plugin-page-creator",
-      "id": "d1ab4681-c67e-58d2-a1d4-ed4a6a1ad3cf",
+    "93de105b-b458-5dba-bcf3-5aa4766c89d5": {
+      "resolve": "D:/Development/Projects/Perso/React/portfolio-gatsby/node_modules/gatsby-plugin-page-creator",
+      "id": "93de105b-b458-5dba-bcf3-5aa4766c89d5",
       "name": "gatsby-plugin-page-creator",
       "version": "2.0.8",
       "pluginOptions": {
         "plugins": [],
-        "path": "C:/Users/mathieu/Desktop/Dev/Projects/Perso/React/portfolio-gatsby/src/pages",
+        "path": "D:/Development/Projects/Perso/React/portfolio-gatsby/src/pages",
         "pathCheck": false
       },
       "nodeAPIs": [
@@ -315,7 +319,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "C:/Users/mathieu/Desktop/Dev/Projects/Perso/React/portfolio-gatsby/node_modules/gatsby-plugin-page-creator",
+      "pluginFilepath": "D:/Development/Projects/Perso/React/portfolio-gatsby/node_modules/gatsby-plugin-page-creator",
       "packageJson": {
         "name": "gatsby-plugin-page-creator",
         "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
@@ -398,23 +402,23 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "8637cafbbaf8b64036c74c654f4394c6",
+        "contentDigest": "e4ac62b255eb302c020ceaafbe4f154d",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Site": {
       "siteMetadata": {},
-      "port": 8002,
+      "port": "8000",
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-04-26T20:32:35.155Z",
+      "buildTime": "2019-05-25T14:03:18.289Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "7a8d1d54d1d050fec56f141170438acc",
+        "contentDigest": "91923d0486170ac29b471aee083d7dc0",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -423,19 +427,19 @@
       "jsonName": "contact-26a",
       "internalComponentName": "ComponentContact",
       "path": "/contact/",
-      "component": "C:/Users/mathieu/Desktop/Dev/Projects/Perso/React/portfolio-gatsby/src/pages/contact.js",
+      "component": "D:/Development/Projects/Perso/React/portfolio-gatsby/src/pages/contact.js",
       "componentChunkName": "component---src-pages-contact-js",
       "context": {},
-      "pluginCreator___NODE": "d1ab4681-c67e-58d2-a1d4-ed4a6a1ad3cf",
-      "pluginCreatorId": "d1ab4681-c67e-58d2-a1d4-ed4a6a1ad3cf",
-      "componentPath": "C:/Users/mathieu/Desktop/Dev/Projects/Perso/React/portfolio-gatsby/src/pages/contact.js",
+      "pluginCreator___NODE": "93de105b-b458-5dba-bcf3-5aa4766c89d5",
+      "pluginCreatorId": "93de105b-b458-5dba-bcf3-5aa4766c89d5",
+      "componentPath": "D:/Development/Projects/Perso/React/portfolio-gatsby/src/pages/contact.js",
       "id": "SitePage /contact/",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "2723dd85e697b7a381252707c256a560",
-        "description": "d1ab4681-c67e-58d2-a1d4-ed4a6a1ad3cf",
+        "contentDigest": "082f1a9c0153aef9df37d1ec91b261a7",
+        "description": "93de105b-b458-5dba-bcf3-5aa4766c89d5",
         "owner": "internal-data-bridge"
       }
     },
@@ -443,19 +447,19 @@
       "jsonName": "index",
       "internalComponentName": "ComponentIndex",
       "path": "/",
-      "component": "C:/Users/mathieu/Desktop/Dev/Projects/Perso/React/portfolio-gatsby/src/pages/index.js",
+      "component": "D:/Development/Projects/Perso/React/portfolio-gatsby/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
       "context": {},
-      "pluginCreator___NODE": "d1ab4681-c67e-58d2-a1d4-ed4a6a1ad3cf",
-      "pluginCreatorId": "d1ab4681-c67e-58d2-a1d4-ed4a6a1ad3cf",
-      "componentPath": "C:/Users/mathieu/Desktop/Dev/Projects/Perso/React/portfolio-gatsby/src/pages/index.js",
+      "pluginCreator___NODE": "93de105b-b458-5dba-bcf3-5aa4766c89d5",
+      "pluginCreatorId": "93de105b-b458-5dba-bcf3-5aa4766c89d5",
+      "componentPath": "D:/Development/Projects/Perso/React/portfolio-gatsby/src/pages/index.js",
       "id": "SitePage /",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c30527c17001116eb2712316717b70c4",
-        "description": "d1ab4681-c67e-58d2-a1d4-ed4a6a1ad3cf",
+        "contentDigest": "ff8f8fc44a8405a7e6f378c6a5b65b31",
+        "description": "93de105b-b458-5dba-bcf3-5aa4766c89d5",
         "owner": "internal-data-bridge"
       }
     },
@@ -463,19 +467,19 @@
       "jsonName": "recent-projects-a25",
       "internalComponentName": "ComponentRecentProjects",
       "path": "/recent-projects/",
-      "component": "C:/Users/mathieu/Desktop/Dev/Projects/Perso/React/portfolio-gatsby/src/pages/recent-projects.js",
+      "component": "D:/Development/Projects/Perso/React/portfolio-gatsby/src/pages/recent-projects.js",
       "componentChunkName": "component---src-pages-recent-projects-js",
       "context": {},
-      "pluginCreator___NODE": "d1ab4681-c67e-58d2-a1d4-ed4a6a1ad3cf",
-      "pluginCreatorId": "d1ab4681-c67e-58d2-a1d4-ed4a6a1ad3cf",
-      "componentPath": "C:/Users/mathieu/Desktop/Dev/Projects/Perso/React/portfolio-gatsby/src/pages/recent-projects.js",
+      "pluginCreator___NODE": "93de105b-b458-5dba-bcf3-5aa4766c89d5",
+      "pluginCreatorId": "93de105b-b458-5dba-bcf3-5aa4766c89d5",
+      "componentPath": "D:/Development/Projects/Perso/React/portfolio-gatsby/src/pages/recent-projects.js",
       "id": "SitePage /recent-projects/",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "aacd9f0701778a178809a34099fea8d6",
-        "description": "d1ab4681-c67e-58d2-a1d4-ed4a6a1ad3cf",
+        "contentDigest": "e2db0d11a9e7c49ad4f410a2ad70dee7",
+        "description": "93de105b-b458-5dba-bcf3-5aa4766c89d5",
         "owner": "internal-data-bridge"
       }
     },
@@ -483,26 +487,26 @@
       "jsonName": "resume-e4f",
       "internalComponentName": "ComponentResume",
       "path": "/resume/",
-      "component": "C:/Users/mathieu/Desktop/Dev/Projects/Perso/React/portfolio-gatsby/src/pages/resume.js",
+      "component": "D:/Development/Projects/Perso/React/portfolio-gatsby/src/pages/resume.js",
       "componentChunkName": "component---src-pages-resume-js",
       "context": {},
-      "pluginCreator___NODE": "d1ab4681-c67e-58d2-a1d4-ed4a6a1ad3cf",
-      "pluginCreatorId": "d1ab4681-c67e-58d2-a1d4-ed4a6a1ad3cf",
-      "componentPath": "C:/Users/mathieu/Desktop/Dev/Projects/Perso/React/portfolio-gatsby/src/pages/resume.js",
+      "pluginCreator___NODE": "93de105b-b458-5dba-bcf3-5aa4766c89d5",
+      "pluginCreatorId": "93de105b-b458-5dba-bcf3-5aa4766c89d5",
+      "componentPath": "D:/Development/Projects/Perso/React/portfolio-gatsby/src/pages/resume.js",
       "id": "SitePage /resume/",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "2886b48ebfd6bf0b48f90b7b44502671",
-        "description": "d1ab4681-c67e-58d2-a1d4-ed4a6a1ad3cf",
+        "contentDigest": "d842b8a8816ca50472f9eab18f2ce039",
+        "description": "93de105b-b458-5dba-bcf3-5aa4766c89d5",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "b71110230d90606cebbbf9533dd86fc7"
+    "PLUGINS_HASH": "5b940b1dcc0e9ce75702085ed04bdd4e"
   },
   "componentDataDependencies": {
     "nodes": {},
@@ -520,25 +524,25 @@
     "resume-e4f": "794/path---resume-e-4-f-cdf-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
-    "C:/Users/mathieu/Desktop/Dev/Projects/Perso/React/portfolio-gatsby/.cache/dev-404-page.js": {
+    "D:/Development/Projects/Perso/React/portfolio-gatsby/.cache/dev-404-page.js": {
       "query": "",
-      "componentPath": "C:/Users/mathieu/Desktop/Dev/Projects/Perso/React/portfolio-gatsby/.cache/dev-404-page.js"
+      "componentPath": "D:/Development/Projects/Perso/React/portfolio-gatsby/.cache/dev-404-page.js"
     },
-    "C:/Users/mathieu/Desktop/Dev/Projects/Perso/React/portfolio-gatsby/src/pages/contact.js": {
+    "D:/Development/Projects/Perso/React/portfolio-gatsby/src/pages/contact.js": {
       "query": "",
-      "componentPath": "C:/Users/mathieu/Desktop/Dev/Projects/Perso/React/portfolio-gatsby/src/pages/contact.js"
+      "componentPath": "D:/Development/Projects/Perso/React/portfolio-gatsby/src/pages/contact.js"
     },
-    "C:/Users/mathieu/Desktop/Dev/Projects/Perso/React/portfolio-gatsby/src/pages/index.js": {
+    "D:/Development/Projects/Perso/React/portfolio-gatsby/src/pages/index.js": {
       "query": "",
-      "componentPath": "C:/Users/mathieu/Desktop/Dev/Projects/Perso/React/portfolio-gatsby/src/pages/index.js"
+      "componentPath": "D:/Development/Projects/Perso/React/portfolio-gatsby/src/pages/index.js"
     },
-    "C:/Users/mathieu/Desktop/Dev/Projects/Perso/React/portfolio-gatsby/src/pages/recent-projects.js": {
+    "D:/Development/Projects/Perso/React/portfolio-gatsby/src/pages/recent-projects.js": {
       "query": "",
-      "componentPath": "C:/Users/mathieu/Desktop/Dev/Projects/Perso/React/portfolio-gatsby/src/pages/recent-projects.js"
+      "componentPath": "D:/Development/Projects/Perso/React/portfolio-gatsby/src/pages/recent-projects.js"
     },
-    "C:/Users/mathieu/Desktop/Dev/Projects/Perso/React/portfolio-gatsby/src/pages/resume.js": {
+    "D:/Development/Projects/Perso/React/portfolio-gatsby/src/pages/resume.js": {
       "query": "",
-      "componentPath": "C:/Users/mathieu/Desktop/Dev/Projects/Perso/React/portfolio-gatsby/src/pages/resume.js"
+      "componentPath": "D:/Development/Projects/Perso/React/portfolio-gatsby/src/pages/resume.js"
     }
   },
   "staticQueryComponents": {}

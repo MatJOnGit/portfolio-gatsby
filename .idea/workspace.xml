@@ -2,24 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1a920b8-a249-403a-9e31-fbcb9dc53e54" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/values/curiosity-opacity.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/values/rigor-opacity.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/values/teamwork-opacity.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ValueBox/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.cache/api-runner-browser-plugins.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/api-runner-browser-plugins.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/api-runner-ssr.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/api-runner-ssr.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.cache/async-requires.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/async-requires.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/babelState.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/babelState.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/pages.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/pages.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.cache/redux-state.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/redux-state.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.cache/sync-requires.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/sync-requires.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/render-page.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/render-page.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/resumeInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/resumeInfo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/recent-projects.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/recent-projects.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/recent-projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/recent-projects.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/resume.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/resume.css" afterDir="false" />
     </list>
@@ -29,31 +20,18 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/styles/global.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/header.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+            <state relative-caret-position="85">
+              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -62,19 +40,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/recent-projects.css">
+        <entry file="file://$PROJECT_DIR$/src/components/ValueBox/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/footer.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+            <state relative-caret-position="119">
+              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -82,17 +51,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/resume.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+            <state relative-caret-position="289">
+              <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -100,8 +60,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/recent-projects.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1494">
-              <caret line="87" column="33" selection-start-line="87" selection-start-column="33" selection-end-line="87" selection-end-column="33" />
+            <state relative-caret-position="238">
+              <caret line="23" column="53" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -110,13 +70,33 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/images/projects-render/webagency-screenshot.jpeg">
-          <provider selected="true" editor-type-id="images" />
+        <entry file="file://$PROJECT_DIR$/src/data/resumeInfo.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pages/resume.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/images/projects-render/velyon-screenshot.jpeg">
-          <provider selected="true" editor-type-id="images" />
+        <entry file="file://$PROJECT_DIR$/src/pages/resume.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="443">
+              <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -161,28 +141,31 @@
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/pages/contact.js" />
         <option value="$PROJECT_DIR$/src/pages/contact.css" />
-        <option value="$PROJECT_DIR$/src/pages/index.css" />
-        <option value="$PROJECT_DIR$/src/pages/index.js" />
         <option value="$PROJECT_DIR$/src/pages/recent-projects.css" />
-        <option value="$PROJECT_DIR$/src/pages/resume.css" />
-        <option value="$PROJECT_DIR$/src/pages/recent-projects.js" />
         <option value="$PROJECT_DIR$/src/styles/global.css" />
         <option value="$PROJECT_DIR$/src/components/footer.css" />
         <option value="$PROJECT_DIR$/src/components/header.css" />
+        <option value="$PROJECT_DIR$/src/components/ValueBox/index.js" />
+        <option value="$PROJECT_DIR$/src/pages/index.js" />
+        <option value="$PROJECT_DIR$/src/pages/recent-projects.js" />
+        <option value="$PROJECT_DIR$/src/pages/index.css" />
+        <option value="$PROJECT_DIR$/src/data/resumeInfo.js" />
+        <option value="$PROJECT_DIR$/src/pages/resume.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="240" />
+    <option name="y" value="126" />
+    <option name="width" value="1440" />
+    <option name="height" value="775" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -198,33 +181,6 @@
             <path>
               <item name="portfolio-gatsby" type="b2602c69:ProjectViewProjectNode" />
               <item name="portfolio-gatsby" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="portfolio-gatsby" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio-gatsby" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="logos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="portfolio-gatsby" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio-gatsby" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="projects-render" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="portfolio-gatsby" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio-gatsby" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="values" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="portfolio-gatsby" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio-gatsby" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -232,6 +188,33 @@
               <item name="portfolio-gatsby" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio-gatsby" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio-gatsby" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="ProjectBox" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio-gatsby" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio-gatsby" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="ValueBox" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio-gatsby" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio-gatsby" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="WorkplaceBox" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio-gatsby" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio-gatsby" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="portfolio-gatsby" type="b2602c69:ProjectViewProjectNode" />
@@ -249,7 +232,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -262,6 +244,7 @@
     <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -299,17 +282,20 @@
       <workItem from="1556212326977" duration="7257000" />
       <workItem from="1556309654639" duration="118000" />
       <workItem from="1556309904908" duration="2417000" />
+      <workItem from="1557517820149" duration="658000" />
+      <workItem from="1557817927850" duration="4691000" />
+      <workItem from="1558793138513" duration="2624000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100532000" />
+    <option name="totallyTimeSpent" value="108505000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22228146" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23221476" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -354,16 +340,6 @@
     <entry file="file://$PROJECT_DIR$/../test/app.js" />
     <entry file="file://$PROJECT_DIR$/../test/index.html" />
     <entry file="file://$PROJECT_DIR$/src/scripts/project-details-shower.js" />
-    <entry file="file://$PROJECT_DIR$/src/pages/resume.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/footer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -432,44 +408,10 @@
     <entry file="file://$PROJECT_DIR$/public/images/projects-render/Strasbourg-screenshot.jpeg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/index.js">
+    <entry file="file://$PROJECT_DIR$/src/styles/global.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/recent-projects.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/resume.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/recent-projects.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1494">
-          <caret line="87" column="33" selection-start-line="87" selection-start-column="33" selection-end-line="87" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="357">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -479,24 +421,89 @@
     <entry file="file://$PROJECT_DIR$/public/images/projects-render/velyon-screenshot.jpeg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/global.css">
+    <entry file="file://$PROJECT_DIR$/src/pages/recent-projects.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        <state relative-caret-position="391">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/footer.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
+        <state relative-caret-position="612">
           <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/header.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/recent-projects.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="23" column="53" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/recentProjectsInfo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="6" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ValueBox/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/resume.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/resumeInfo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/resume.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
         </state>
       </provider>
     </entry>
