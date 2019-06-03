@@ -22,8 +22,7 @@ footer li a {
 }
 
 .content {
-    margin-top: 360px;
-    margin-bottom: 100px;
+    margin: 91px 15px 100px 15px; /* 150px top for tablets & desktop */
 }
 
 .rounded {

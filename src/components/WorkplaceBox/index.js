@@ -39,6 +39,7 @@ export default class WorkplaceBox extends React.Component {
                         } />
                     </div>
                 </div>
+
                 {!isBoxExpanded ? null : (
                     <div className={"workplace-content"}>
                         <p>Dates :</p>

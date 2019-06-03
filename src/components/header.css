@@ -1,6 +1,6 @@
 header {
     position: fixed;
-    height: 134px;
+    height: 75px; /* 134px for tablets & desktop */
     top: 0;
     right: 0;
     left: 0;
@@ -12,7 +12,6 @@ header {
 .banner {
     height: 65px;
     padding: 5px 5%;
-
     position: relative;
     display: flex;
     flex-direction: row;
@@ -39,33 +38,6 @@ h1, h2 {
     color: white;
 }
 
-header ul {
-    margin: 0;
-    padding: 0;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-
-    border-bottom: 1px rgb(183, 21, 64) solid;
-
-    text-align: center;
-    color: #FFF;
-}
-
-header li {
-    margin: 0;
-}
-
-header li {
-    width: 25%;
-    height: 100%;
-    list-style: none;
-    padding: 8px 0;
-    text-decoration: none;
-}
-
 .menu-button {
     position: absolute;
     right: 20px;
@@ -84,4 +56,48 @@ header li {
     left: 0.5em;
     background: linear-gradient(#373a47 20%, transparent 20%, transparent 40%, #373a47 40%, #373a47 60%, transparent 60%, transparent 80%, #373a47 80%);
     content: ""
+}
+
+.stable-menu {
+    margin: 0;
+    padding: 0;
+
+    display: none;
+    /* display: flex; */
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom: 1px rgb(183, 21, 64) solid;
+
+    text-align: center;
+    color: #FFF;
+}
+
+.stable-menu li {
+    margin: 0;
+    width: 25%;
+    height: 100%;
+    list-style: none;
+    padding: 8px 0;
+    text-decoration: none;
+}
+
+.dynamic-menu {
+    margin: 0;
+    padding: 10px 0;
+    border-top: 1px solid white;
+    position: fixed;
+    top: 75px;
+    bottom: 0px;
+    background-image: radial-gradient(circle at bottom left, rgb(242, 67, 114), rgb(183, 21, 64));
+    width: 100%;
+}
+
+.dynamic-menu li {
+    padding: 8px 20px;
+}
+
+.dynamic-menu a {;
+    color: white;
 }
