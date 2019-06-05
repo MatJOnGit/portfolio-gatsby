@@ -43,15 +43,19 @@ export default class Header extends React.Component {
                 </ul>
 
                 {!isMenuExpanded ? null : (
-                    <ul className={"dynamic-menu"}>
-                        <ListLink to="/">About me</ListLink>
-                        <ListLink to="/resume/">Resume</ListLink>
-                        <ListLink to="/recent-projects/">Recent projects</ListLink>
-                        <ListLink to="/contact/">Contact</ListLink>
-                        <li><a href="https://github.com/MatJOnGit">Github</a></li>
-                        <li><a href="https://mobile.twitter.com/MathieuOnTwit">Twitter</a></li>
-                        <li><a href="https://www.linkedin.com/in/mathieu-jourdan/">Linkedin</a></li>
-                    </ul>
+                    <div className={"dynamic-menu-container"}>
+                        <ul className="header-menu">
+                            <ListLink to="/">About me</ListLink>
+                            <ListLink to="/resume/">Resume</ListLink>
+                            <ListLink to="/recent-projects/">Recent projects</ListLink>
+                            <ListLink to="/contact/">Contact</ListLink>
+                        </ul>
+                        <ul className="footer-menu">
+                            <li><a href="https://github.com/MatJOnGit">Github</a></li>
+                            <li><a href="https://mobile.twitter.com/MathieuOnTwit">Twitter</a></li>
+                            <li><a href="https://www.linkedin.com/in/mathieu-jourdan/">Linkedin</a></li>
+                        </ul>
+                    </div>
                 )}
             </header>
         )

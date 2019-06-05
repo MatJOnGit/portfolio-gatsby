@@ -63,7 +63,6 @@ h1, h2 {
     padding: 0;
 
     display: none;
-    /* display: flex; */
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -83,21 +82,33 @@ h1, h2 {
     text-decoration: none;
 }
 
-.dynamic-menu {
+.dynamic-menu-container {
     margin: 0;
-    padding: 10px 0;
+    padding: 50px 0;
     border-top: 1px solid white;
     position: fixed;
     top: 75px;
     bottom: 0px;
     background-image: radial-gradient(circle at bottom left, rgb(242, 67, 114), rgb(183, 21, 64));
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.dynamic-menu li {
-    padding: 8px 20px;
+.header-menu,
+.footer-menu {
+    padding: 0;
 }
 
-.dynamic-menu a {;
+.dynamic-menu-container li {
+    padding: 0;
+    list-style: none;
+}
+
+.dynamic-menu-container a {
+    display: block;
+    padding: 12px 20px;
     color: white;
+    /* cursor */
 }
