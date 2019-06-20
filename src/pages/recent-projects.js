@@ -28,6 +28,7 @@ export default class RecentProjects extends React.PureComponent {
                         <ProjectBox
                             key={projectItem.name}
                             name={projectItem.name}
+                            type={projectItem.type}
                             role={projectItem.role}
                             goal={projectItem.goal}
                             technologies={projectItem.technologies}

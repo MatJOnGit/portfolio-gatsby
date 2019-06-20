@@ -1,6 +1,5 @@
 import React from "react"
 import {Link} from "gatsby"
-import menuLink from "./../../data/links"
 import {recentProjectsInfo} from "../../data/recentProjectsInfo";
 import ProjectBox from "../ProjectBox";
 
@@ -25,9 +24,6 @@ export default class DynamicMenu extends React.Component {
                     <li><a href="https://mobile.twitter.com/MathieuOnTwit">Twitter</a></li>
                     <li><a href="https://www.linkedin.com/in/mathieu-jourdan/">Linkedin</a></li>
                 </ul>
-                {menuLink.header.map(headerLinkItem => (
-                    <p>headerLinkItem.name</p>
-                ))}
             </div>
         )
     }

@@ -5,7 +5,7 @@ export default class ProjectBox extends React.Component {
         const { name, type, role, goal, technologies, github, link } = this.props
 
         return (
-            <div className="project-box">
+            <div className="project-box" >
                 <div className="project-summary">
                     <h3>{name}</h3>
                     <i className="fa fa-arrow-circle-down"></i>
