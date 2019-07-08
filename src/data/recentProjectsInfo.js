@@ -1,56 +1,68 @@
 export const recentProjectsInfo = [
     {
         name: 'Web Agency',
-        type: 'Integration',
+        type: 'html-css',
+        languages: 'CSS3, HTML5, Javascript',
         role: 'Mockup integration',
         goal: 'Display a responsive one-page website using HTML5 and CSS3 best practices.',
-        technologies: 'HTML5, CSS3, Javascript, API',
+        keywords: 'Integration, HTML5, CSS3, Javascript, ES6, API',
         github: 'https://github.com/MatJOnGit/WebAgency',
-        link: 'http://projet1.m-jourdan.fr/'
+        link: 'http://projet1.m-jourdan.fr/',
+        image: 'webagency'
     },
     {
         name: 'Office de Tourisme de Strasbourg',
-        type: 'CMS',
+        type: 'cms',
+        languages: 'Wordpress, CSS3',
         role: 'Theme customization',
         goal: 'Develop a whole functional website based on a free theme, adding pluggins, SEO and accessibility',
-        technologies: 'CSS3, Javascript, Wordpress',
+        keywords: 'CMS, Wordpress, CSS3',
         github: '',
-        link: 'http://projet2.m-jourdan.fr/'
+        link: 'http://projet2.m-jourdan.fr/',
+        image: 'otstrasbourg'
     },
     {
         name: "Ve'Lyon",
-        type: 'Web app',
+        type: 'javascript',
+        languages: 'Javascript, jQuery, CSS3, HTML5',
         role: 'Frontend development',
         goal: 'Display a interactive map to help bickers booking bikes in Lyon',
-        technologies: 'HTML5, CSS3, Javascript, jQuery, API',
+        keywords: 'HTML5, CSS3, Javascript, ES6, jQuery, API',
         github: 'https://github.com/MatJOnGit/Ve-Lyon',
-        link: 'http://projet3.m-jourdan.fr/'
+        link: 'http://projet3.m-jourdan.fr/',
+        image: 'velyon'
     },
     {
         name: 'One way ticket to Alaska',
-        type: 'Blog',
+        type: 'php',
+        languages: 'PHP5, CSS3, Javascript',
         role: 'Frontend & backend development',
         goal: 'Develop a whole blog system and its backoffice to help a writer publishing his book through blog articles',
-        technologies: 'HTML5, CSS3, Javascript, PHP, MySQL',
+        keywords: 'HTML5, CSS3, Javascript, PHP, MySQL',
         github: 'https://github.com/MatJOnGit/One-way-ticket-to-Alaska',
-        link: 'http://projet4.m-jourdan.fr/'
+        link: 'http://projet4.m-jourdan.fr/',
+        image: 'owtta'
     },
     {
         name: 'Personal portfolio',
-        type: 'Portfolio',
+        type: 'javascript',
+        languages: 'Javascript, React',
         role: 'Frontend development',
         goal: 'Develop a simple and interactive interface to present my own profil',
-        technologies: 'CSS3, Javascript, ReactJS, GatsbyJS',
+        keywords: 'CSS3, Javascript, React, GatsbyJS',
         github: '',
-        link: 'http://m-jourdan.fr'
+        link: 'http://m-jourdan.fr',
+        image: 'unavailable'
     },
     {
         name: "Tough n' Sound",
-        type: 'Web app',
+        type: 'php',
+        languages: 'PHP5, Symfony4, Javascript',
         role: 'Frontend & backend development',
         goal: 'Develop an easy-to-use and complete website to help users customize their own sportive training',
-        technologies: 'CSS3, Javascript, Symfony 4',
+        keywords: 'CSS3, Javascript, Symfony 4',
         github: '',
-        link: ''
+        link: '',
+        image: 'unavailable'
     }
 ]

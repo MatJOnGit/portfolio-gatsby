@@ -1,6 +1,5 @@
 .workplace-box {
-    margin: 10px 5%;
-    border: 1px dimgrey solid;
+    margin: 10px 0;
     box-shadow: 2px 2px rgba(0, 0, 0, 0.3);
     background-color: white;
     border-radius: 8px;
@@ -60,4 +59,5 @@
 
 .workplace-content {
     margin: 0 5%;
+    padding-bottom: 5px;
 }

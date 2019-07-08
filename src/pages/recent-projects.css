@@ -1,17 +1,21 @@
-.project-type-list {
-    list-style: none;
-    margin: 10px 5%;
-    padding: 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    flex-wrap: wrap;
+.content > ul,
+.content > div {
+    margin: 10px 0;
 }
 
+.project-type-list,
+.project-list,
 .project-details ul {
     list-style: none;
     margin: 0;
     padding: 0;
+}
+
+.project-type-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
 }
 
 .project-details i {
@@ -23,29 +27,39 @@
 }
 
 .project-box {
-    margin: 10px 5%;
-    padding: 15px;
+    height: 156px;
+    width: 100%;
     border: 1px dimgrey solid;
     background-color: rgb(249, 249, 249);
     box-shadow: 2px 2px rgba(0, 0, 0, 0.3);
     border-radius: 5px;
+    position: relative;
+    margin-bottom: 20px;
 }
 
 .project-summary {
+    height: 156px;
+    padding: 10px;
     display: flex;
+    border-radius: 5px 5px 0 0;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-h3,
-.project-summary p {
-    width: 80%;
+.project-summary img {
+    width: 100%;
+    height: 156px;
+    border-style: none;
+}
+
+.project-title {
+    display: block;
 }
 
 h3 {
     margin: 0;
-    color: midnightblue;
+    width: 80%;
     font-size: 1.2em;
 }
 
@@ -54,24 +68,39 @@ h3 {
 }
 
 .project-summary {
+    padding: 0;
+    border-radius: 5px;
     display: flex;
     flex-direction: row;
-
+    justify-content: center;
+    position: absolute;
 }
 
-.project-summary button {
-    padding: 5px 8px;
-    border-radius: 2px;
-
-    background-color: dodgerblue;
-    border: 1px black solid;
-    color: white;
-    box-shadow: 3px 3px darkgrey;
+.project-titles {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
 }
 
+h3,
+h4 {
+    display: block;
+}
+
+.project-description
 .project-summary i {
     font-size: 2.2em;
-    color: midnightblue;
+    color: white;
+}
+
+h4 {
+    font-style: italic;
+}
+
+.project-details {
+    padding: 10px;
 }
 
 .project-details a {

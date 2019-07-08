@@ -24,18 +24,22 @@ export default class RecentProjects extends React.PureComponent {
                         <li className={"rounded"}>PHP</li>
                     </ul>
 
-                    {recentProjectsInfo.map(projectItem => (
-                        <ProjectBox
-                            key={projectItem.name}
-                            name={projectItem.name}
-                            type={projectItem.type}
-                            role={projectItem.role}
-                            goal={projectItem.goal}
-                            technologies={projectItem.technologies}
-                            github={projectItem.github}
-                            link={projectItem.link}
-                        />
-                    ))}
+                    <ul className={"project-list"}>
+                        {recentProjectsInfo.map(projectItem => (
+                            <ProjectBox
+                                key={projectItem.name}
+                                type={projectItem.type}
+                                name={projectItem.name}
+                                languages={projectItem.languages}
+                                role={projectItem.role}
+                                goal={projectItem.goal}
+                                keywords={projectItem.keywords}
+                                github={projectItem.github}
+                                link={projectItem.link}
+                                image={projectItem.image}
+                            />
+                        ))}
+                    </ul>
                 </div>
 
                 <Footer />

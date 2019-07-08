@@ -25,6 +25,7 @@ export default class Resume extends React.PureComponent {
                             context={jobItem.context}
                             role={jobItem.role}
                             dates={jobItem.dates}
+                            image={jobItem.image}
                         />
                     ))}
                 </div>
