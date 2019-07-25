@@ -7,23 +7,23 @@ export default class WorkplaceBox extends React.Component {
     }
 
     state = {
-        isBoxExpanded: false
+        isWorkplaceBoxExpanded: false
     }
 
-    toggleBox = () => {
+    toggleWorkplaceBox = () => {
         this.setState({
-            isBoxExpanded: !this.state.isBoxExpanded
+            isWorkplaceBoxExpanded: !this.state.isWorkplaceBoxExpanded
         })
     }
 
     render() {
         const { pictureName, status, dates, context, role } = this.props
-        const { isBoxExpanded } = this.state
+        const { isWorkplaceBoxExpanded } = this.state
 
         return (
             <div
                 className={"workplace-box"}
-                onClick={this.toggleBox}
+                onClick={this.toggleWorkplaceBox}
             >
                 <div className={"workplace-header"}>
                     <img
@@ -35,12 +35,12 @@ export default class WorkplaceBox extends React.Component {
                     <div className={"workplace-layer"}>
                         <p>{status}</p>
                         <i className={
-                            isBoxExpanded ? 'fa fa-arrow-circle-up' : 'fa fa-arrow-circle-down'
+                            isWorkplaceBoxExpanded ? 'fa fa-arrow-circle-up' : 'fa fa-arrow-circle-down'
                         } />
                     </div>
                 </div>
 
-                {!isBoxExpanded ? null : (
+                {!isWorkplaceBoxExpanded ? null : (
                     <div className={"workplace-content"}>
                         <p>Dates :</p>
                         <p>{dates}</p>
