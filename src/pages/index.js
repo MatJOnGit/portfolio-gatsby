@@ -15,6 +15,8 @@ export default () => (
         <Header />
 
         <div className={"content"}>
+            <h3>About me</h3>
+
             <p>Hi !</p>
             <p className={"subtitled"}>
                 I'm Mathieu. I'm a junior front-end developer, looking

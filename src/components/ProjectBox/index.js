@@ -25,15 +25,17 @@ export default class ProjectBox extends React.Component {
                 className={"project-box " + type + "-project"}
                 onClick={this.toggleProjectBox}
             >
-                <img src={require('./../../../public/images/projects-render/' + image + '.jpg')} alt={'logo ' + name}/>
-                <div className={"project-layer"}></div>
-                <div className={"project-titles"}>
-                    <h3>{name}</h3>
-                    <h4>{role}</h4>
+                <div className={"project-header"}>
+                    <img src={require('./../../../public/images/projects-render/' + image + '.jpg')} alt={'logo ' + name}/>
+                    <div className={"project-layer"}></div>
+                    <div className={"project-titles"}>
+                        <h4>{name}</h4>
+                        <h5>{role}</h5>
+                    </div>
                 </div>
 
                 {!isProjectBoxExpanded ? null : (
-                    <ul className="project-details">
+                    <ul className="project-content">
                         <li><i className="fa fa-briefcase"></i>{role}</li>
                         <li><i className="fa fa-bullseye"></i>{goal}</li>
                         <li><i className="fa fa-hashtag"></i>{keywords}</li>

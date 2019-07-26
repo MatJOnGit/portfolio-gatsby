@@ -21,7 +21,7 @@ export default class WorkplaceBox extends React.Component {
         const { isWorkplaceBoxExpanded } = this.state
 
         return (
-            <div
+            <li
                 className={"workplace-box"}
                 onClick={this.toggleWorkplaceBox}
             >
@@ -33,7 +33,7 @@ export default class WorkplaceBox extends React.Component {
                         alt={"logo " + pictureName}
                     />
                     <div className={"workplace-layer"}>
-                        <p>{status}</p>
+                        <h4>{status}</h4>
                         <i className={
                             isWorkplaceBoxExpanded ? 'fa fa-arrow-circle-up' : 'fa fa-arrow-circle-down'
                         } />
@@ -50,7 +50,7 @@ export default class WorkplaceBox extends React.Component {
                         <p>{role}</p>
                     </div>
                 )}
-            </div>
+            </li>
         )
     }
 }

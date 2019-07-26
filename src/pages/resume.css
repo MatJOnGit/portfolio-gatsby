@@ -1,9 +1,14 @@
+.workplace-list {
+    padding: 0;
+}
+
 .workplace-box {
     margin: 10px 0;
     box-shadow: 2px 2px rgba(0, 0, 0, 0.3);
     background-color: white;
     border-radius: 8px;
     font-size: 0.9em;
+    list-style: none;
 }
 
 .workplace-header img {

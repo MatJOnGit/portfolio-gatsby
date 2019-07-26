@@ -33,3 +33,7 @@ footer li a {
     color: white;
     box-shadow: 3px 3px darkgrey;
 }
+
+h3 {
+    text-align: center;
+}

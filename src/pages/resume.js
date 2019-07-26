@@ -16,18 +16,21 @@ export default class Resume extends React.PureComponent {
                 <Header />
 
                 <div className={"content"}>
-                    {resumeInfo.map(jobItem => (
-                        <WorkplaceBox
-                            key={jobItem.name}
-                            name={jobItem.name}
-                            pictureName={jobItem.pictureName}
-                            status={jobItem.status}
-                            context={jobItem.context}
-                            role={jobItem.role}
-                            dates={jobItem.dates}
-                            image={jobItem.image}
-                        />
-                    ))}
+                    <h3>Resume</h3>
+                    <ul className={"workplace-list"}>
+                        {resumeInfo.map(jobItem => (
+                            <WorkplaceBox
+                                key={jobItem.name}
+                                name={jobItem.name}
+                                pictureName={jobItem.pictureName}
+                                status={jobItem.status}
+                                context={jobItem.context}
+                                role={jobItem.role}
+                                dates={jobItem.dates}
+                                image={jobItem.image}
+                            />
+                        ))}
+                    </ul>
                 </div>
 
                 <Footer />

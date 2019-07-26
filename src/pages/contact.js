@@ -18,6 +18,8 @@ export default () => (
         <Header />
 
         <div className={"content"}>
+            <h3>Contact</h3>
+
             <p>We're just one click away from a new great relationship.</p>
             <p>Let's just fill this form and get started !</p>
 
