@@ -32,17 +32,22 @@
 }
 
 .project-header {
+    height: 126px;
     position: relative;
+    display: flex;
+    justify-content: content;
+    align-items: center;
 }
 
 .project-box img {
     width: 100%;
+    border-radius: 5px 5px 0 0;
 }
 
 .project-layer,
 .project-titles {
     width: 100%;
-    height: 135px;
+    height: 127px;
     position: absolute;
     top: 0;
     left: 0;
@@ -64,11 +69,6 @@
     align-items: center;
 }
 
-.project-description {
-    font-size: 2.2em;
-    color: white;
-}
-
 h4,
 h5 {
     margin: 10px;
@@ -80,14 +80,12 @@ h5 {
     font-style: italic;
 }
 
-.project-details {
-    padding: 10px;
+.project-content {
+    margin: 10px 5%;
+    padding: 0;
+    list-style: none;
 }
 
-.project-details a {
-    color: darkred;
-}
-
-.project-details i {
-    margin: 0 5px 0;
+.project-content i {
+    margin-right: 10px;
 }

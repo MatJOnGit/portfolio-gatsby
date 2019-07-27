@@ -26,6 +26,10 @@
     background-color: rgb(255, 255, 255);
 }
 
+h4 {
+    color: black;
+}
+
 .workplace-layer p {
     margin-left: 5%;
 }

@@ -19,7 +19,7 @@ export const recentProjectsInfo = [
         keywords: 'CMS, Wordpress, CSS3',
         github: '',
         link: 'http://projet2.m-jourdan.fr/',
-        image: 'otstrasbourg'
+        image: 'webagency'
     },
     {
         name: "Ve'Lyon",
@@ -30,7 +30,7 @@ export const recentProjectsInfo = [
         keywords: 'HTML5, CSS3, Javascript, ES6, jQuery, API',
         github: 'https://github.com/MatJOnGit/Ve-Lyon',
         link: 'http://projet3.m-jourdan.fr/',
-        image: 'velyon'
+        image: 'webagency'
     },
     {
         name: 'One way ticket to Alaska',
@@ -41,7 +41,7 @@ export const recentProjectsInfo = [
         keywords: 'HTML5, CSS3, Javascript, PHP, MySQL',
         github: 'https://github.com/MatJOnGit/One-way-ticket-to-Alaska',
         link: 'http://projet4.m-jourdan.fr/',
-        image: 'owtta'
+        image: 'webagency'
     },
     {
         name: 'Personal portfolio',
@@ -52,7 +52,7 @@ export const recentProjectsInfo = [
         keywords: 'CSS3, Javascript, React, GatsbyJS',
         github: '',
         link: 'http://m-jourdan.fr',
-        image: 'unavailable'
+        image: 'webagency'
     },
     {
         name: "Tough n' Sound",
@@ -63,6 +63,6 @@ export const recentProjectsInfo = [
         keywords: 'CSS3, Javascript, Symfony 4',
         github: '',
         link: '',
-        image: 'unavailable'
+        image: 'webagency'
     }
 ]

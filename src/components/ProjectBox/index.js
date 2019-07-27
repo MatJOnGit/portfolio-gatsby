@@ -36,7 +36,6 @@ export default class ProjectBox extends React.Component {
 
                 {!isProjectBoxExpanded ? null : (
                     <ul className="project-content">
-                        <li><i className="fa fa-briefcase"></i>{role}</li>
                         <li><i className="fa fa-bullseye"></i>{goal}</li>
                         <li><i className="fa fa-hashtag"></i>{keywords}</li>
                         <li><a href={github}>Github</a></li>
