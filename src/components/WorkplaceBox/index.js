@@ -17,7 +17,7 @@ export default class WorkplaceBox extends React.Component {
     }
 
     render() {
-        const { pictureName, status, dates, context, role } = this.props
+        const { name, pictureName, status, dates, context, role } = this.props
         const { isWorkplaceBoxExpanded } = this.state
 
         return (
@@ -32,22 +32,23 @@ export default class WorkplaceBox extends React.Component {
                             ".jpg")}
                         alt={"logo " + pictureName}
                     />
-                    <div className={"workplace-layer"}>
-                        <h4>{status}</h4>
-                        <i className={
-                            isWorkplaceBoxExpanded ? 'fa fa-arrow-circle-up' : 'fa fa-arrow-circle-down'
-                        } />
+                    <div className={
+                        "workplace-layer" +
+                        (isWorkplaceBoxExpanded ? "hidden-layer" : "")
+                    }>
+                        <h4>{name}</h4>
+                        <h5>{status}</h5>
                     </div>
                 </div>
 
                 {!isWorkplaceBoxExpanded ? null : (
                     <div className={"workplace-content"}>
-                        <p>Dates :</p>
-                        <p>{dates}</p>
-                        <p>Context :</p>
-                        <p>{context}</p>
-                        <p>Role :</p>
-                        <p>{role}</p>
+                        <h4>{name}</h4>
+                        <h5>{status}</h5>
+                        <p><i className="fa fa-calendar"></i>{dates}</p>
+                        <p><i className="fa fa-address-card-o"></i>{context}</p>
+                        <p><i className="fa fa-bullseye"></i>{role}</p>
+                        <i className={'fa fa-arrow-circle-up'}/>
                     </div>
                 )}
             </li>
