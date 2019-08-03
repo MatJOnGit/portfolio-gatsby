@@ -4,7 +4,7 @@
 
 .workplace-box {
     margin-bottom: 20px;
-    box-shadow: 2px 3px rgba(0, 0, 0, 0.3);
+    box-shadow: 2px 5px rgba(0, 0, 0, 0.3);
     border-radius: 5px;
     list-style: none;
 }
@@ -12,9 +12,6 @@
 .workplace-header {
     height: 126px;
     position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .workplace-header img {
@@ -24,14 +21,18 @@
 .workplace-layer {
     width: 100%;
     height: 128px;
-    background-color: #105e66;
+    background-color: #074174;
     position: absolute;
-    top: -1px;
+    top: 0;
     left: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     border-radius: 5px
+}
+
+.hidden-layer {
+    display: none;
 }
 
 .workplace-layer h4,

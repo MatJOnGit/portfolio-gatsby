@@ -23,7 +23,7 @@
 }
 
 .project-box {
-    box-shadow: 2px 3px rgba(0, 0, 0, 0.3);
+    box-shadow: 2px 5px rgba(0, 0, 0, 0.3);
     border-radius: 5px;
     margin-bottom: 20px;
 }
@@ -31,9 +31,6 @@
 .project-header {
     height: 126px;
     position: relative;
-    display: flex;
-    justify-content: content;
-    align-items: center;
 }
 
 .project-box img {
@@ -45,7 +42,7 @@
     height: 128px;
     background-color: #105e66;
     position: absolute;
-    top: -1px;
+    top: 0;
     left: 0;
     display: flex;
     flex-direction: column;
@@ -53,14 +50,13 @@
     border-radius: 5px;
 }
 
+.hidden-layer {
+    display: none;
+}
+
 .project-layer h4,
 .project-layer h5 {
     margin: 0;
-}
-
-.hidden-layer {
-    display: none;
-    border-radius: 5px;
 }
 
 .splitter {

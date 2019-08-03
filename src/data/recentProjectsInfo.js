@@ -53,8 +53,8 @@ export const recentProjectsInfo = [
         type: 'javascript',
         languages: 'Javascript, React',
         role: 'Frontend development',
-        goal: 'Develop a simple and interactive interface to present my own profil',
-        keywords: 'CSS3, Javascript, React, GatsbyJS',
+        goal: 'Develop a simple and interactive interface to present my own profil and work',
+        keywords: 'CSS3, Javascript, ES6, React, GatsbyJS',
         github: '',
         link: 'http://m-jourdan.fr',
         image: 'unavailable'
