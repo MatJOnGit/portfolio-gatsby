@@ -29,8 +29,9 @@ export default class RecentProjects extends React.PureComponent {
                         {recentProjectsInfo.map(projectItem => (
                             <ProjectBox
                                 key={projectItem.name}
-                                type={projectItem.type}
                                 name={projectItem.name}
+                                tag={projectItem.tag}
+                                type={projectItem.type}
                                 languages={projectItem.languages}
                                 role={projectItem.role}
                                 goal={projectItem.goal}

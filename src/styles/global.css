@@ -29,11 +29,30 @@ footer li a {
     border-radius: 7px;
     margin: 5px;
     padding: 5px 8px;
-    border: 1px black solid;
+    border: 1px white solid;
     color: white;
     box-shadow: 3px 3px darkgrey;
 }
 
+.curved-image {
+    border-radius: 5px 5px 5px 5px;
+}
+
+.uncurved-image {
+    border-radius: 5px 5px 0 0;
+}
+
 h3 {
     text-align: center;
+}
+
+h4,
+h5 {
+    text-align: center;
+    color: white;
+    align-self: center;
+}
+
+h5 {
+    font-style: italic;
 }

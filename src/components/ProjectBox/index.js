@@ -18,16 +18,20 @@ export default class ProjectBox extends React.Component {
     }
 
     render() {
-        const { name, type, role, goal, keywords, github, link, image } = this.props
+        const { name, tag, type, language, role, goal, keywords, github, link, image } = this.props
         const { isProjectBoxExpanded } = this.state
 
         return (
             <li
-                className={"project-box " + type + "-project"}
+                className={"project-box " + tag + "-project"}
                 onClick={this.toggleProjectBox}
             >
                 <div className={"project-header"}>
-                    <img src={require('./../../../public/images/projects-render/' + image + '.jpg')} alt={'logo ' + name}/>
+                    <img
+                        src={require('./../../../public/images/projects-render/' + image + '.jpg')}
+                        alt={'logo ' + name}
+                        className={isProjectBoxExpanded ? "uncurved-image" : "curved-image"}
+                    />
                     <div className={
                         "project-layer" +
                         (isProjectBoxExpanded ? " hidden-layer" : "")

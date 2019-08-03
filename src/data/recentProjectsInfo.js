@@ -1,6 +1,7 @@
 export const recentProjectsInfo = [
     {
         name: 'Web Agency',
+        tag: "webagency",
         type: 'html-css',
         languages: 'CSS3, HTML5, Javascript',
         role: 'Mockup integration',
@@ -12,6 +13,7 @@ export const recentProjectsInfo = [
     },
     {
         name: 'Office de Tourisme de Strasbourg',
+        tag: "otstrasbourg",
         type: 'cms',
         languages: 'Wordpress, CSS3',
         role: 'Theme customization',
@@ -19,10 +21,11 @@ export const recentProjectsInfo = [
         keywords: 'CMS, Wordpress, CSS3',
         github: '',
         link: 'http://projet2.m-jourdan.fr/',
-        image: 'webagency'
+        image: 'otstrasbourg'
     },
     {
         name: "Ve'Lyon",
+        tag: "velyon",
         type: 'javascript',
         languages: 'Javascript, jQuery, CSS3, HTML5',
         role: 'Frontend development',
@@ -30,10 +33,11 @@ export const recentProjectsInfo = [
         keywords: 'HTML5, CSS3, Javascript, ES6, jQuery, API',
         github: 'https://github.com/MatJOnGit/Ve-Lyon',
         link: 'http://projet3.m-jourdan.fr/',
-        image: 'webagency'
+        image: 'velyon'
     },
     {
         name: 'One way ticket to Alaska',
+        tag: "ticketalaska",
         type: 'php',
         languages: 'PHP5, CSS3, Javascript',
         role: 'Frontend & backend development',
@@ -41,10 +45,11 @@ export const recentProjectsInfo = [
         keywords: 'HTML5, CSS3, Javascript, PHP, MySQL',
         github: 'https://github.com/MatJOnGit/One-way-ticket-to-Alaska',
         link: 'http://projet4.m-jourdan.fr/',
-        image: 'webagency'
+        image: 'ottwa'
     },
     {
         name: 'Personal portfolio',
+        tag: "portfolio",
         type: 'javascript',
         languages: 'Javascript, React',
         role: 'Frontend development',
@@ -52,10 +57,11 @@ export const recentProjectsInfo = [
         keywords: 'CSS3, Javascript, React, GatsbyJS',
         github: '',
         link: 'http://m-jourdan.fr',
-        image: 'webagency'
+        image: 'unavailable'
     },
     {
         name: "Tough n' Sound",
+        tag: "toughnsound",
         type: 'php',
         languages: 'PHP5, Symfony4, Javascript',
         role: 'Frontend & backend development',
@@ -63,6 +69,6 @@ export const recentProjectsInfo = [
         keywords: 'CSS3, Javascript, Symfony 4',
         github: '',
         link: '',
-        image: 'webagency'
+        image: 'unavailable'
     }
 ]

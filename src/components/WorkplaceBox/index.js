@@ -1,5 +1,6 @@
 import React from "react"
 import PropTypes from 'proptypes'
+import Splitter from "../Splitter"
 
 export default class WorkplaceBox extends React.Component {
     static propTypes = {
@@ -27,28 +28,32 @@ export default class WorkplaceBox extends React.Component {
             >
                 <div className={"workplace-header"}>
                     <img
-                        src={require("../../../public/images/logos/" +
-                            pictureName +
-                            ".jpg")}
+                        src={require("../../../public/images/logos/" + pictureName + ".jpg")}
                         alt={"logo " + pictureName}
+                        className={isWorkplaceBoxExpanded ? "uncurved-image" : "curved-image"}
                     />
                     <div className={
-                        "workplace-layer" +
+                        "workplace-layer " +
                         (isWorkplaceBoxExpanded ? "hidden-layer" : "")
                     }>
                         <h4>{name}</h4>
+                        <Splitter/>
                         <h5>{status}</h5>
                     </div>
                 </div>
 
                 {!isWorkplaceBoxExpanded ? null : (
                     <div className={"workplace-content"}>
-                        <h4>{name}</h4>
-                        <h5>{status}</h5>
-                        <p><i className="fa fa-calendar"></i>{dates}</p>
-                        <p><i className="fa fa-address-card-o"></i>{context}</p>
-                        <p><i className="fa fa-bullseye"></i>{role}</p>
-                        <i className={'fa fa-arrow-circle-up'}/>
+                        <div className="workplace-titles">
+                            <h4>{name}</h4>
+                            <h5>{status}</h5>
+                        </div>
+                        <Splitter/>
+                        <div className="workplace-details">
+                            <p><i className="fa fa-calendar"></i>{dates}</p>
+                            <p><i className="fa fa-address-card-o"></i>{context}</p>
+                            <p><i className="fa fa-bullseye"></i>{role}</p>
+                        </div>
                     </div>
                 )}
             </li>
