@@ -14,8 +14,6 @@ export const recentProjectsInfo = [
     {
         name: 'Office de Tourisme de Strasbourg',
         tag: "otstrasbourg",
-        type: 'cms',
-        languages: 'Wordpress, CSS3',
         role: 'Theme customization',
         goal: 'Develop a whole functional website based on a free theme, adding pluggins, SEO and accessibility',
         keywords: 'CMS, Wordpress, CSS3',

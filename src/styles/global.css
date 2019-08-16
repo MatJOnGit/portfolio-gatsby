@@ -7,6 +7,20 @@
         url("../../public/fonts/CaviarDreams_Bold.ttf");
 }
 
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src:
+        local('Raleway-regular'),
+        url("../../public/fonts/Raleway-Medium.ttf");
+}
+
+html {
+    font-family: 'Raleway';
+    font-size: 0.8em;
+}
+
 body {
     margin: 0;
     background-color: rgb(245, 245, 245);

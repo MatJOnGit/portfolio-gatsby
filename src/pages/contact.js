@@ -20,18 +20,15 @@ export default () => (
         <div className={"content"}>
             <h3>Contact</h3>
 
-            <p>We're just one click away from a new great relationship.</p>
-            <p>Let's just fill this form and get started !</p>
+            <img src={require('./../../public/images/photos/beach-developping.jpg')} alt="Beach developping" />
 
-            <form action="treatment.php" method="post">
-                <Inputbox data="name" type="text"/>
-                <Inputbox data="company" type="text"/>
-                <div>
-                    <label htmlFor="message">Message</label>
-                    <textarea name="message" placeholder="Tell me what I can do for you" rows="5" col="3"></textarea>
-                </div>
-                <button type="submit" className="rounded">Send</button>
-            </form>
+            <p><b><em>(A retravailler en expliquant qu'il s'agit d'une reconversion pro.)</em></b></p>
+            <p>As you can see on my resume, I'm currently working as <b><em>(commande pour afficher le dernier job en liste en minuscules)</em></b></p>
+            <p>I'm also working on new projects to get graduate and evolve on new technologies like React, VueJS and Symfony.</p>
+
+            <p>You're looking for a new web developer ? Then, let's get in touch</p>
+
+            <button className="contact-button">Contact me</button>
         </div>
 
         <Footer />
