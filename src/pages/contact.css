@@ -17,6 +17,10 @@ img {
     align-items: center;
 }
 
+.contact-speech {
+    text-align: justify;
+}
+
 .coords h4 {
     color: black;
     margin: 20px 0 0;

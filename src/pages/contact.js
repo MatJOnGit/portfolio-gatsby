@@ -23,11 +23,11 @@ export default () => (
         <div className="content">
             <h3>Contact</h3>
 
-            <div>
+            <div className="contact-speech">
                 <img src={require('./../../public/images/photos/beach-developping.jpg')} alt="Beach developping" />
 
                 <p>I'm currently working as a { resumeInfo[0].status.toLowerCase() }. </p>
-                <p>I'm also working on new projects to be graduated and become a full-time web developer.</p>
+                <p>I'm also working on new projects to be graduated and soon become a full-time web developer.</p>
                 <p>Therefore, I'm always looking for new job oportunities.</p>
                 <p>So if you're looking for a brand new web developer, let's get in touch !</p>
             </div>

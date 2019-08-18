@@ -35,6 +35,7 @@
 
 .subtitled {
     position: relative;
+    text-align: justify;
 }
 
 .subtitled:after {
