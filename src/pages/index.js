@@ -20,7 +20,7 @@ export default () => (
             <p>Hi !</p>
             <p className={"subtitled"}>
                 I'm Mathieu. I'm a junior front-end developer, looking
-                for a front-end web developer job in Paris area.
+                for a front-end web developer job in Paris or Nantes area.
             </p>
 
             <ValueBox value="curiosity"></ValueBox>

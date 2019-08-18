@@ -2,9 +2,26 @@ img {
     width: 100%;
 }
 
-.contact-button {
-    background-image: radial-gradient(circle at top left, rgb(242, 67, 114), rgb(183, 21, 64));
-    color: white;
-    border: none;
-    margin-top: 20px;
+.coords {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.coords div {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.coords h4 {
+    color: black;
+    margin: 20px 0 0;
+}
+
+.coords p {
+    margin: 0;
 }

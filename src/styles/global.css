@@ -26,13 +26,16 @@ body {
     background-color: rgb(245, 245, 245);
 }
 
-
 header li a,
 footer li a {
     text-decoration: none;
     color: midnightblue;
     font-weight: 700;
     font-size: 0.9em;
+}
+
+h3 {
+    font-family: 'Caviar Dreams';
 }
 
 .content {

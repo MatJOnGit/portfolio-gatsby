@@ -1,6 +1,9 @@
 import React from "react"
 import Header from "../components/header"
 import Footer from "../components/footer"
+
+import { resumeInfo } from "../data/resumeInfo"
+
 import styles from './contact.css'
 
 const Inputbox = props => (
@@ -14,21 +17,32 @@ const Inputbox = props => (
 )
 
 export default () => (
-    <div className={"wrapper"}>
+    <div className="wrapper">
         <Header />
 
-        <div className={"content"}>
+        <div className="content">
             <h3>Contact</h3>
 
-            <img src={require('./../../public/images/photos/beach-developping.jpg')} alt="Beach developping" />
+            <div>
+                <img src={require('./../../public/images/photos/beach-developping.jpg')} alt="Beach developping" />
 
-            <p><b><em>(A retravailler en expliquant qu'il s'agit d'une reconversion pro.)</em></b></p>
-            <p>As you can see on my resume, I'm currently working as <b><em>(commande pour afficher le dernier job en liste en minuscules)</em></b></p>
-            <p>I'm also working on new projects to get graduate and evolve on new technologies like React, VueJS and Symfony.</p>
+                <p>I'm currently working as a { resumeInfo[0].status.toLowerCase() }. </p>
+                <p>I'm also working on new projects to be graduated and become a full-time web developer.</p>
+                <p>Therefore, I'm always looking for new job oportunities.</p>
+                <p>So if you're looking for a brand new web developer, let's get in touch !</p>
+            </div>
 
-            <p>You're looking for a new web developer ? Then, let's get in touch</p>
+            <div className="coords">
+                <div>
+                    <h4>EMAIL</h4>
+                    <p>contact@m-jourdan.fr</p>
+                </div>
 
-            <button className="contact-button">Contact me</button>
+                <div>
+                    <h4>PHONE NUMBER</h4>
+                    <p>06.50.60.22.19</p>
+                </div>
+            </div>
         </div>
 
         <Footer />
