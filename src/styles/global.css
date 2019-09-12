@@ -8,13 +8,13 @@
 }
 
 @font-face {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    src:
-        local('Raleway-regular'),
-        url("../../public/fonts/Raleway-Medium.ttf");
-}
+     font-family: 'Raleway';
+     font-style: normal;
+     font-weight: 400;
+     src:
+         local('Raleway-regular'),
+         url("../../public/fonts/Raleway-Medium.ttf");
+ }
 
 html {
     font-family: 'Raleway';

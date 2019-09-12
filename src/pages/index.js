@@ -20,7 +20,7 @@ export default () => (
             <p>Hi !</p>
             <p className={"subtitled"}>
                 I'm Mathieu. I'm a junior front-end developer, looking
-                for a front-end web developer job in Paris or Nantes area.
+                for a front-end web developer job in Paris area.
             </p>
 
             <ValueBox value="curiosity"></ValueBox>
@@ -35,7 +35,8 @@ export default () => (
             <p className={"subtitled"}>
                 Why I love web development ? Simply because I love being able to create
                 beautiful and powerful websites, always trying to understand the needs
-                and how I can answer it at my best.
+                and how I can answer it at my best. I'm also monitoring technological developments
+                to always keep my knowledge up.
             </p>
 
             <ValueBox value="teamwork"></ValueBox>

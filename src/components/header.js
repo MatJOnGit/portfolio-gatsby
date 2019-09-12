@@ -28,7 +28,8 @@ export default class Header extends React.Component {
                     <button
                         className={"menu-button"}
                         onClick={this.toggleMenu}
-                    ></button>
+                    >
+                    </button>
                 </div>
 
                 <StaticMenu />
