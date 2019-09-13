@@ -3,23 +3,11 @@
     margin: 10px 0;
 }
 
-.project-type-list,
 .project-list,
 .project-details {
     list-style: none;
     margin: 0;
     padding: 0;
-}
-
-.project-type-list {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-}
-
-.project-type-list li {
-    background-color: #1c989f;
 }
 
 .project-box {

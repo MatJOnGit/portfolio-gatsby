@@ -17,13 +17,6 @@ export default class RecentProjects extends React.PureComponent {
 
                 <div className={"content"}>
                     <h3>Recent projects</h3>
-                    <ul className={"project-type-list"}>
-                        <li className={"rounded"}>All</li>
-                        <li className={"rounded"}>Integration</li>
-                        <li className={"rounded"}>CMS</li>
-                        <li className={"rounded"}>Javascript</li>
-                        <li className={"rounded"}>PHP</li>
-                    </ul>
 
                     <ul className={"project-list"}>
                         {recentProjectsInfo.map(projectItem => (
