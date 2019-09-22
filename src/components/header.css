@@ -1,6 +1,6 @@
 header {
     position: fixed;
-    height: 75px; /* 134px for tablets & desktop */
+    height: 75px;
     top: 0;
     right: 0;
     left: 0;
@@ -21,7 +21,7 @@ header {
 }
 
 .banner img {
-    width: 15%;
+    width: 50px;
 }
 
 .title {
@@ -32,10 +32,17 @@ header {
 }
 
 h1, h2 {
-    font-size: 0.9em;
     margin: 0;
     text-align: center;
     color: white;
+}
+
+h1 {
+    font-size: 1.4em;
+}
+
+h2 {
+    font-size: 1em;
 }
 
 .menu-button {
@@ -58,7 +65,7 @@ h1, h2 {
     content: ""
 }
 
-.stable-menu {
+.static-menu {
     margin: 0;
     padding: 0;
 
@@ -73,7 +80,7 @@ h1, h2 {
     color: #FFF;
 }
 
-.stable-menu li {
+.static-menu li {
     margin: 0;
     width: 25%;
     height: 100%;

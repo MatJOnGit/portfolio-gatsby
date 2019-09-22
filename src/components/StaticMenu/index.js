@@ -10,7 +10,7 @@ export default class StaticMenu extends React.Component {
         )
 
         return (
-            <ul className={"stable-menu"}>
+            <ul className={"static-menu"}>
                 <ListLink to="/">About me</ListLink>
                 <ListLink to="/resume/">Resume</ListLink>
                 <ListLink to="/recent-projects/">Recent projects</ListLink>

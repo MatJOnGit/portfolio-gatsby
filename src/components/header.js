@@ -3,6 +3,8 @@ import styles from './header.css'
 import DynamicMenu from "./DynamicMenu";
 import StaticMenu from "./StaticMenu";
 
+import "font-awesome/css/font-awesome.min.css"
+
 export default class Header extends React.Component {
     state = {
         isMenuExpanded: false
