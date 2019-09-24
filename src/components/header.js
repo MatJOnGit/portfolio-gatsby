@@ -1,7 +1,6 @@
 import React from "react"
 
 import styles from './header.css'
-import 'font-awesome/css/font-awesome.min.css';
 
 import DynamicMenu from "./DynamicMenu";
 import StaticMenu from "./StaticMenu";
@@ -27,7 +26,6 @@ export default class Header extends React.Component {
                     <div className={"title"}>
                         <h1>Mathieu Jourdan</h1>
                         <h2>Junior frontend developer</h2>
-                        <i className="fas fa-slash"></i>
                     </div>
                     <button
                         className={"menu-button"}

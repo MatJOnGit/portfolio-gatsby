@@ -1,8 +1,3 @@
-.content > ul,
-.content > div {
-    margin: 10px 0;
-}
-
 .project-list,
 .project-details {
     list-style: none;

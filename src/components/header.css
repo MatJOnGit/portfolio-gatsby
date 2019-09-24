@@ -85,7 +85,7 @@ h2 {
     width: 25%;
     height: 100%;
     list-style: none;
-    padding: 8px 0;
+    padding: 10px 0;
     text-decoration: none;
 }
 
@@ -125,7 +125,7 @@ h2 {
 
 @media (min-width: 768px) {
     header {
-        height: 144px;
+        height: 148px;
     }
 
     .banner {
@@ -163,6 +163,6 @@ h2 {
     }
 
     .content {
-        margin: 180px 7% 50px;
+        margin: 180px 10% 50px;
     }
 }
