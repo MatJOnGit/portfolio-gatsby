@@ -122,3 +122,47 @@ h2 {
     color: white;
     cursor: pointer;
 }
+
+@media (min-width: 768px) {
+    header {
+        height: 144px;
+    }
+
+    .banner {
+        height: 100px;
+        padding: 5px 15%;
+        justify-content: center;
+    }
+
+    .menu-button {
+        display: none;
+    }
+
+    .banner img {
+        width: 70px;
+    }
+
+    .title {
+        width: 60%;
+        height: 70px;
+        margin-left: 40px;
+        justify-content: space-around;
+    }
+
+    h1 {
+        font-size: 1.6em;
+    }
+
+    h2 {
+        font-size: 1.3em;
+        align-self: flex-end;
+    }
+
+    .static-menu {
+        display: flex;
+    }
+
+    .content {
+        margin: 180px 7% 50px;
+    }
+}

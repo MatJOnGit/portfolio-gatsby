@@ -1,13 +1,12 @@
 import React from "react"
 
+import styles from "./resume.css"
+
 import Header from "../components/header"
 import Footer from "../components/footer"
 import WorkplaceBox from "../components/WorkplaceBox"
 
 import { resumeInfo } from "../data/resumeInfo"
-
-import styles from "./resume.css"
-import "font-awesome/css/font-awesome.min.css"
 
 export default class Resume extends React.PureComponent {
     render() {

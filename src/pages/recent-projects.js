@@ -1,13 +1,12 @@
 import React from "react"
 
+import styles from './recent-projects.css'
+
 import Header from "../components/header"
 import Footer from "../components/footer"
 import ProjectBox from "../components/ProjectBox"
 
 import { recentProjectsInfo } from "../data/recentProjectsInfo";
-
-import styles from './recent-projects.css'
-import 'font-awesome/css/font-awesome.min.css'
 
 export default class RecentProjects extends React.PureComponent {
     render() {

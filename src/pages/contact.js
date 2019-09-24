@@ -1,10 +1,12 @@
 import React from "react"
+
+import styles from './contact.css'
+
 import Header from "../components/header"
 import Footer from "../components/footer"
 
 import { resumeInfo } from "../data/resumeInfo"
 
-import styles from './contact.css'
 
 const Inputbox = props => (
     <div>

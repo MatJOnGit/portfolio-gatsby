@@ -1,7 +1,9 @@
 import React from "react"
+
+import styles from './index.css'
+
 import Header from "../components/header"
 import Footer from "../components/footer"
-import styles from './index.css'
 
 const ValueBox = props => (
     <div className="value-box">
