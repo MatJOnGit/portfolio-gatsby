@@ -4,9 +4,10 @@
 
 .workplace-box {
     margin-bottom: 20px;
-    box-shadow: 2px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 3px 4px rgba(0, 0, 0, 0.3);
     border-radius: 5px;
     list-style: none;
+    border: 1px black solid;
 }
 
 .workplace-header {
@@ -102,4 +103,22 @@
 
 .workplace-details p {
     margin: 0 0 10px 0;
+}
+
+.hidden-content {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .workplace-list {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .workplace-box {
+        width: 150px;
+    }
+
+
+
 }

@@ -38,3 +38,9 @@ footer p {
 footer li a {
     color: white;
 }
+
+@media (min-width: 768px) {
+    footer {
+        display: block;
+    }
+}

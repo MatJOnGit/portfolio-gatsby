@@ -33,8 +33,8 @@ export default class WorkplaceBox extends React.Component {
                         className={isWorkplaceBoxExpanded ? "uncurved-image" : "curved-image"}
                     />
                     <div className={
-                        "workplace-layer " +
-                        (isWorkplaceBoxExpanded ? "hidden-layer" : "")
+                        "workplace-layer" +
+                        (isWorkplaceBoxExpanded ? " hidden-layer" : "")
                     }>
                         <h4>{name}</h4>
                         <Splitter/>
@@ -42,20 +42,18 @@ export default class WorkplaceBox extends React.Component {
                     </div>
                 </div>
 
-                {!isWorkplaceBoxExpanded ? null : (
-                    <div className={"workplace-content"}>
-                        <div className="workplace-titles">
-                            <h4>{name}</h4>
-                            <h5>{status}</h5>
-                        </div>
-                        <Splitter/>
-                        <div className="workplace-details">
-                            <p><i className="fa fa-calendar"></i>{dates}</p>
-                            <p><i className="fa fa-address-card-o"></i>{context}</p>
-                            <p><i className="fa fa-bullseye"></i>{role}</p>
-                        </div>
+                <div className={"workplace-content" + (!isWorkplaceBoxExpanded ? " hidden-content" : "")}>
+                    <div className="workplace-titles">
+                        <h4>{name}</h4>
+                        <h5>{status}</h5>
                     </div>
-                )}
+                    <Splitter/>
+                    <div className="workplace-details">
+                        <p><i className="fa fa-calendar"></i>{dates}</p>
+                        <p><i className="fa fa-address-card-o"></i>{context}</p>
+                        <p><i className="fa fa-bullseye"></i>{role}</p>
+                    </div>
+                </div>
             </li>
         )
     }
