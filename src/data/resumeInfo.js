@@ -7,7 +7,7 @@ export const resumeInfo = [
         role: "Solving and mapping users computer problems, preparing users' computer " +
             "for deployment, participating in some desktop-oriented projects, training arriving techs",
         dates: 'February 2019 - now',
-        backgroundColor: 'rgb(37,29,89)'
+        backgroundColor: 'rgb(37,29,89)',
     },
     {
         name: 'SNEF',

@@ -84,6 +84,10 @@ h5 {
         font-size: 0.9em;
     }
 
+    .content {
+        margin: 180px 10% 90px;
+    }
+
     h3 {
         font-size: 1.1em;
     }

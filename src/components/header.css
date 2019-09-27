@@ -125,7 +125,7 @@ h2 {
 
 @media (min-width: 768px) {
     header {
-        height: 148px;
+        height: 150px;
     }
 
     .banner {
@@ -160,9 +160,5 @@ h2 {
 
     .static-menu {
         display: flex;
-    }
-
-    .content {
-        margin: 180px 10% 50px;
     }
 }

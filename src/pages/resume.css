@@ -116,9 +116,19 @@
         flex-wrap: wrap;
     }
     .workplace-box {
-        width: 150px;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
     }
 
+    .workplace-header {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: black;
+        border-radius: 5px 5px 0 0;
+    }
 
-
+    .workplace-header img {
+        width: 320px;
+    }
 }

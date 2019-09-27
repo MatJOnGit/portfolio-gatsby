@@ -18,7 +18,7 @@ export default class WorkplaceBox extends React.Component {
     }
 
     render() {
-        const { name, pictureName, status, dates, context, role } = this.props
+        const { name, pictureName, status, dates, context, role, backgroundColor } = this.props
         const { isWorkplaceBoxExpanded } = this.state
 
         return (
@@ -26,7 +26,10 @@ export default class WorkplaceBox extends React.Component {
                 className={"workplace-box"}
                 onClick={this.toggleWorkplaceBox}
             >
-                <div className={"workplace-header"}>
+                <div
+                    className={"workplace-header"}
+                    style={{backgroundColor: backgroundColor}}
+                >
                     <img
                         src={require("../../../public/images/logos/" + pictureName + ".jpg")}
                         alt={"logo " + pictureName}
@@ -44,7 +47,6 @@ export default class WorkplaceBox extends React.Component {
 
                 <div className={"workplace-content" + (!isWorkplaceBoxExpanded ? " hidden-content" : "")}>
                     <div className="workplace-titles">
-                        <h4>{name}</h4>
                         <h5>{status}</h5>
                     </div>
                     <Splitter/>
