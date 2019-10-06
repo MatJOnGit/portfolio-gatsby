@@ -1,12 +1,21 @@
 export const resumeInfo = [
     {
+        name: 'Helpline',
+        pictureName: 'helpline',
+        status: 'User support tech',
+        context: 'Windows 10 deployment and users issues resolution',
+        role: 'Providing computers for new employees, migrating data from old computer to ' +
+            'more recent setups, managing inventory of computer hardware , training new techs',
+        dates: 'August 2019 - now',
+        backgroundColor: 'rgb(255,255,255)',
+    },{
         name: 'Econocom',
         pictureName: 'econocom',
         status: 'User support tech',
         context: 'Windows 10 project testing and deployment',
         role: "Solving and mapping users computer problems, preparing users' computer " +
-            "for deployment, participating in some desktop-oriented projects, training arriving techs",
-        dates: 'February 2019 - now',
+            "for deployment, participating in some desktop-oriented projects, training new techs",
+        dates: 'February 2019 - August 2019',
         backgroundColor: 'rgb(37,29,89)',
     },
     {

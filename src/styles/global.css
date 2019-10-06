@@ -44,7 +44,7 @@ h3 {
 
 .content > ul,
 .content > div {
-    margin: 20px 0 0;
+    /* margin: 20px 0 0; */
 }
 
 .rounded {
