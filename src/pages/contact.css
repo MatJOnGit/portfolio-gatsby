@@ -3,7 +3,6 @@ img {
 }
 
 .coords {
-    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,4 +27,10 @@ img {
 
 .coords p {
     margin: 0;
+}
+
+@media (min-width: 768px) {
+    .coords p {
+        margin: 0;
+    }
 }

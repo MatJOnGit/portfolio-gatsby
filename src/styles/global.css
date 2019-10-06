@@ -31,6 +31,7 @@ footer li a {
     text-decoration: none;
     color: midnightblue;
     font-weight: 700;
+    font-size: 1.1em;
 }
 
 h3 {
@@ -38,12 +39,12 @@ h3 {
 }
 
 .content {
-    margin: 91px 7% 50px; /* 150px top for tablets & desktop */
+    margin: 91px 7% 50px;
 }
 
 .content > ul,
 .content > div {
-    margin: 25px 0 0;
+    margin: 20px 0 0;
 }
 
 .rounded {
@@ -94,6 +95,6 @@ h5 {
 
     .content > ul,
     .content > div {
-        margin: 45px 50px 0;
+        margin: 30px 100px 0;
     }
 }

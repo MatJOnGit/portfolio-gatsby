@@ -1,7 +1,6 @@
 export const recentProjectsInfo = [
     {
         name: 'Web Agency',
-        tag: "webagency",
         type: 'html-css',
         languages: 'CSS3, HTML5, Javascript',
         role: 'Mockup integration',
@@ -13,7 +12,6 @@ export const recentProjectsInfo = [
     },
     {
         name: 'Office de Tourisme de Strasbourg',
-        tag: "otstrasbourg",
         role: 'CMS theme customization',
         goal: 'Develop a whole functional website based on a free theme, adding pluggins, SEO and accessibility',
         keywords: 'CMS, Wordpress, CSS3',
@@ -23,7 +21,6 @@ export const recentProjectsInfo = [
     },
     {
         name: "Ve'Lyon",
-        tag: "velyon",
         type: 'javascript',
         languages: 'Javascript, jQuery, CSS3, HTML5',
         role: 'Frontend development',
@@ -35,7 +32,6 @@ export const recentProjectsInfo = [
     },
     {
         name: 'One way ticket to Alaska',
-        tag: "ticketalaska",
         type: 'php',
         languages: 'PHP5, CSS3, Javascript',
         role: 'Frontend & backend development',
@@ -47,7 +43,6 @@ export const recentProjectsInfo = [
     },
     {
         name: 'Personal portfolio',
-        tag: "portfolio",
         type: 'javascript',
         languages: 'Javascript, React',
         role: 'Frontend development',
@@ -59,7 +54,6 @@ export const recentProjectsInfo = [
     },
     {
         name: "Tough n' Sound",
-        tag: "toughnsound",
         type: 'php',
         languages: 'PHP5, Symfony4, Javascript',
         role: 'Frontend & backend development',

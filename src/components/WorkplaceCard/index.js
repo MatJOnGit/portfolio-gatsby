@@ -2,29 +2,29 @@ import React from "react"
 import PropTypes from 'proptypes'
 import Splitter from "../Splitter"
 
-export default class WorkplaceBox extends React.Component {
+export default class WorkplaceCard extends React.Component {
     static propTypes = {
         name: PropTypes.string.isRequired
     }
 
     state = {
-        isWorkplaceBoxExpanded: false
+        isWorkplaceCardExpanded: false
     }
 
-    toggleWorkplaceBox = () => {
+    toggleWorkplaceCard = () => {
         this.setState({
-            isWorkplaceBoxExpanded: !this.state.isWorkplaceBoxExpanded
+            isWorkplaceCardExpanded: !this.state.isWorkplaceCardExpanded
         })
     }
 
     render() {
         const { name, pictureName, status, dates, context, role, backgroundColor } = this.props
-        const { isWorkplaceBoxExpanded } = this.state
+        const { isWorkplaceCardExpanded } = this.state
 
         return (
             <li
-                className={"workplace-box"}
-                onClick={this.toggleWorkplaceBox}
+                className={"workplace-card"}
+                onClick={this.toggleWorkplaceCard}
             >
                 <div
                     className={"workplace-header"}
@@ -33,11 +33,11 @@ export default class WorkplaceBox extends React.Component {
                     <img
                         src={require("../../../public/images/logos/" + pictureName + ".jpg")}
                         alt={"logo " + pictureName}
-                        className={isWorkplaceBoxExpanded ? "uncurved-image" : "curved-image"}
+                        className={isWorkplaceCardExpanded ? "uncurved-image" : "curved-image"}
                     />
                     <div className={
                         "workplace-layer" +
-                        (isWorkplaceBoxExpanded ? " hidden-layer" : "")
+                        (isWorkplaceCardExpanded ? " hidden-layer" : "")
                     }>
                         <h4>{name}</h4>
                         <Splitter/>
@@ -45,10 +45,13 @@ export default class WorkplaceBox extends React.Component {
                     </div>
                 </div>
 
-                <div className={"workplace-content" + (!isWorkplaceBoxExpanded ? " hidden-content" : "")}>
-                    <div className="workplace-titles">
-                        <h5>{status}</h5>
-                    </div>
+                <div className={"" +
+                    "workplace-titles" + (!isWorkplaceCardExpanded ? " hidden-titles" : "")
+                }>
+                    <h5>{status}</h5>
+                </div>
+
+                <div className={"workplace-content" + (!isWorkplaceCardExpanded ? " hidden-content" : "")}>
                     <Splitter/>
                     <div className="workplace-details">
                         <p><i className="fa fa-calendar"></i>{dates}</p>

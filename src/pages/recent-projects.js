@@ -4,7 +4,7 @@ import styles from './recent-projects.css'
 
 import Header from "../components/header"
 import Footer from "../components/footer"
-import ProjectBox from "../components/ProjectBox"
+import ProjectBox from "../components/ProjectCard"
 
 import { recentProjectsInfo } from "../data/recentProjectsInfo";
 

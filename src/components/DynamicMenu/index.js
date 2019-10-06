@@ -1,7 +1,7 @@
 import React from "react"
 import {Link} from "gatsby"
 import {recentProjectsInfo} from "../../data/recentProjectsInfo";
-import ProjectBox from "../ProjectBox";
+import ProjectBox from "../ProjectCard";
 
 export default class DynamicMenu extends React.Component {
     render() {
