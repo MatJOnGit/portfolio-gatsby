@@ -86,15 +86,10 @@ h5 {
     }
 
     .content {
-        margin: 180px 10% 90px;
+        margin: 180px 25% 90px;
     }
 
     h3 {
         font-size: 1.1em;
-    }
-
-    .content > ul,
-    .content > div {
-        margin: 30px 100px 0;
     }
 }
