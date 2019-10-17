@@ -52,3 +52,27 @@
         bottom: -20px;
     }
 }
+
+@media (min-width: 1024px) {
+    .content {
+        margin: 180px 15% 90px;
+    }
+
+    .value-box {
+        display: flex;
+        justify-content: center;
+    }
+
+    .value-box img {
+        width: 50%;
+    }
+
+    .curiosity-value,
+    .teamwork-value {
+        right: 190px;
+    }
+
+    .rigor-value {
+        left: 190px;
+    }
+}

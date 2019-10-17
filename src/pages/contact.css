@@ -1,4 +1,9 @@
-img {
+.contact-speech {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-speech img {
     width: 100%;
 }
 
@@ -32,5 +37,12 @@ img {
 @media (min-width: 768px) {
     .coords p {
         margin: 0;
+    }
+}
+
+@media (min-width: 1024px) {
+    .contact-speech img {
+        width: 50%;
+        align-self: center;
     }
 }
