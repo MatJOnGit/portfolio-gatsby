@@ -90,8 +90,7 @@
     align-items: center;
 }
 
-.workplace-titles h4,
-.workplace-titles h5 {
+.workplace-content h5 {
     color: black;
     margin: 2px;
 }
@@ -135,5 +134,38 @@
         justify-content: center;
         background-color: black;
         border-radius: 5px 5px 0 0;
+    }
+}
+
+@media (min-width: 1024px) {
+    .workplace-card {
+        display: flex;
+    }
+
+    .workplace-layer {
+        display: none;
+    }
+
+    .workplace-header {
+        width: 40%;
+        align-items: center;
+        border-radius: 5px 0 0 5px;
+    }
+
+    .workplace-titles {
+        display: flex;
+    }
+
+    .workplace-content {
+        width: 60%;
+        display: flex;
+    }
+
+    .workplace-content h5 {
+        margin: 2px 2px 20px;
+    }
+
+    .splitter {
+        display: none;
     }
 }

@@ -45,13 +45,8 @@ export default class WorkplaceCard extends React.Component {
                     </div>
                 </div>
 
-                <div className={"" +
-                    "workplace-titles" + (!isWorkplaceCardExpanded ? " hidden-titles" : "")
-                }>
-                    <h5>{status}</h5>
-                </div>
-
                 <div className={"workplace-content" + (!isWorkplaceCardExpanded ? " hidden-content" : "")}>
+                    <h5>{status}</h5>
                     <Splitter/>
                     <div className="workplace-details">
                         <p><i className="fa fa-calendar"></i>{dates}</p>
