@@ -14,6 +14,10 @@
     position: relative;
 }
 
+.workplace-card img {
+    width: 100%;
+}
+
 .workplace-layer {
     width: 100%;
     height: 100%;

@@ -39,12 +39,7 @@ h3 {
 }
 
 .content {
-    margin: 91px 7% 50px;
-}
-
-.content > ul,
-.content > div {
-    /* margin: 20px 0 0; */
+    margin: 91px 10% 50px;
 }
 
 .rounded {
