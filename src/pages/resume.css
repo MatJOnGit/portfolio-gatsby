@@ -6,8 +6,8 @@
 
 .workplace-card {
     margin-bottom: 20px;
-    border-radius: 5px;
-    box-shadow: 3px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    box-shadow: 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .workplace-header {
@@ -28,7 +28,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border-radius: 5px
+    border-radius: 8px
 }
 
 .hidden-layer {
@@ -42,6 +42,10 @@
 .workplace-layer h4,
 .workplace-layer h5 {
     margin: 0;
+    text-align: center;
+    color: white;
+    align-self: center;
+    font-size: 1.1em;
 }
 
 .splitter {
@@ -93,6 +97,9 @@
 .workplace-content h5 {
     color: black;
     margin: 2px;
+    text-align: center;
+    align-self: center;
+    font-size: 1.1em;
 }
 
 .workplace-content .empty-circle {
@@ -104,15 +111,11 @@
     border-top: 1px #105e66 solid;
 }
 
-.workplace-content i {
-    margin-right: 10px;
-}
-
 .workplace-details p {
     margin: 0 0 10px 0;
 }
 
-.hidden-content {
+.hidden-workplace-content {
     display: none;
 }
 
@@ -140,6 +143,7 @@
 @media (min-width: 1024px) {
     .workplace-card {
         display: flex;
+        border: 1px black solid;
     }
 
     .workplace-layer {
@@ -149,6 +153,10 @@
     .workplace-header {
         width: 40%;
         align-items: center;
+    }
+
+    .workplace-header,
+    .workplace-card img {
         border-radius: 5px 0 0 5px;
     }
 

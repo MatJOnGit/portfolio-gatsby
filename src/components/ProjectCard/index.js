@@ -42,15 +42,9 @@ export default class ProjectCard extends React.Component {
                     </div>
                 </div>
 
-                <div className={
-                    "project-titles" + (!isProjectCardExpanded ? " hidden-titles" : "")
-
-                }>
+                <div className={"project-content" + (!isProjectCardExpanded ? " hidden-project-content" : "")}>
                     <h4>{name}</h4>
                     <h5>{role}</h5>
-                </div>
-
-                <div className={"project-content" + (!isProjectCardExpanded ? " hidden-content" : "")}>
                     <Splitter/>
                     <div className="project-details">
                         <p><i className="fa fa-bullseye"></i>{goal}</p>

@@ -27,7 +27,7 @@ export default class WorkplaceCard extends React.Component {
                 onClick={this.toggleWorkplaceCard}
             >
                 <div
-                    className={"workplace-header"}
+                    className={"workplace-header" + (isWorkplaceCardExpanded ? " uncurved-header" : " curved-header")}
                     style={{backgroundColor: backgroundColor}}
                 >
                     <img
@@ -45,7 +45,7 @@ export default class WorkplaceCard extends React.Component {
                     </div>
                 </div>
 
-                <div className={"workplace-content" + (!isWorkplaceCardExpanded ? " hidden-content" : "")}>
+                <div className={"workplace-content" + (!isWorkplaceCardExpanded ? " hidden-workplace-content" : "")}>
                     <h5>{status}</h5>
                     <Splitter/>
                     <div className="workplace-details">
