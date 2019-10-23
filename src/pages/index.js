@@ -3,7 +3,6 @@ import React from "react"
 import styles from './index.css'
 
 import Header from "../components/header"
-import Footer from "../components/footer"
 
 const ValueBox = props => (
     <div className="value-box">
@@ -57,7 +56,5 @@ export default () => (
                 great web developers.
             </p>
         </div>
-
-        <Footer />
     </div>
 )

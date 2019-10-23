@@ -3,7 +3,6 @@ import React from "react"
 import styles from './recent-projects.css'
 
 import Header from "../components/header"
-import Footer from "../components/footer"
 import ProjectBox from "../components/ProjectCard"
 
 import { recentProjectsInfo } from "../data/recentProjectsInfo";
@@ -35,8 +34,6 @@ export default class RecentProjects extends React.PureComponent {
                         ))}
                     </ul>
                 </div>
-
-                <Footer />
             </div>
         )
     }

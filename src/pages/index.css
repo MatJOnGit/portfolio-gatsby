@@ -16,16 +16,16 @@
 .teamwork-value,
 .curiosity-value,
 .rigor-value {
-    bottom: 80px;
+    bottom: 50px;
 }
 
 .curiosity-value,
 .teamwork-value {
-    right: 25px;
+    right: 10%;
 }
 
 .rigor-value {
-    left: 25px;
+    left: 10%;
 }
 
 .value-box p {
@@ -51,6 +51,13 @@
     .subtitled:after {
         bottom: -20px;
     }
+
+    .teamwork-value,
+    .curiosity-value,
+    .rigor-value {
+        bottom: 70px;
+    }
+
 }
 
 @media (min-width: 1024px) {
@@ -67,12 +74,18 @@
         width: 50%;
     }
 
+    .teamwork-value,
+    .curiosity-value,
+    .rigor-value {
+        bottom: 100px;
+    }
+
     .curiosity-value,
     .teamwork-value {
-        right: 190px;
+        right: 30%;
     }
 
     .rigor-value {
-        left: 190px;
+        left: 30%;
     }
 }

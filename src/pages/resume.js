@@ -3,7 +3,6 @@ import React from "react"
 import styles from "./resume.css"
 
 import Header from "../components/header"
-import Footer from "../components/footer"
 import WorkplaceBox from "../components/WorkplaceCard"
 
 import { resumeInfo } from "../data/resumeInfo"
@@ -32,8 +31,6 @@ export default class Resume extends React.PureComponent {
                         ))}
                     </ul>
                 </div>
-
-                <Footer />
             </div>
         )
     }

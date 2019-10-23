@@ -17,7 +17,6 @@ header {
     flex-direction: row;
     justify-content: start;
     align-items: center;
-    background-image: radial-gradient(circle at top left, rgb(242, 67, 114), rgb(183, 21, 64));
 }
 
 .banner img {
@@ -34,7 +33,7 @@ header {
 h1, h2 {
     margin: 0;
     text-align: center;
-    color: white;
+    color: rgb(183, 21, 64);
 }
 
 h1 {
@@ -68,14 +67,12 @@ h2 {
 .static-menu {
     margin: 0;
     padding: 0;
-
     display: none;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
+    border-top: 1px rgb(183, 21, 64) solid;
     border-bottom: 1px rgb(183, 21, 64) solid;
-
     text-align: center;
     color: #FFF;
 }
