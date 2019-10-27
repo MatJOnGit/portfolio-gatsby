@@ -7,7 +7,7 @@
 .workplace-card {
     margin-bottom: 20px;
     border-radius: 8px;
-    box-shadow: 2px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 .workplace-header {
@@ -80,8 +80,10 @@
 }
 
 .workplace-content {
-    margin: 10px 5%;
-    padding: 0;
+    background-color: #303030;
+    margin: 0;
+    padding: 10px 5%;
+    border-radius: 0 0 8px 8px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -95,7 +97,7 @@
 }
 
 .workplace-content h5 {
-    color: black;
+    color: rgb(183, 21, 64);
     margin: 2px;
     text-align: center;
     align-self: center;
@@ -143,7 +145,6 @@
 @media (min-width: 1024px) {
     .workplace-card {
         display: flex;
-        border: 1px black solid;
     }
 
     .workplace-layer {
@@ -166,6 +167,7 @@
 
     .workplace-content {
         width: 60%;
+        border-radius: 0 8px 8px 0;
         display: flex;
     }
 

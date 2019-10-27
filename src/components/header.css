@@ -5,13 +5,13 @@ header {
     right: 0;
     left: 0;
     z-index: 999;
-    background-color: rgb(245, 245, 245);
     font-family: 'Caviar Dreams';
 }
 
 .banner {
     height: 65px;
     padding: 5px 5%;
+    background-color: #303030;
     position: relative;
     display: flex;
     flex-direction: row;
@@ -47,7 +47,7 @@ h2 {
 .menu-button {
     position: absolute;
     right: 20px;
-    background-color: rgba(100, 100, 100, 0.2);
+    background-color: #384040;
     border: none;
     width: 35px;
     height: 35px;
@@ -60,13 +60,23 @@ h2 {
     right: 0.5em;
     bottom: 0.5em;
     left: 0.5em;
-    background: linear-gradient(#373a47 20%, transparent 20%, transparent 40%, #373a47 40%, #373a47 60%, transparent 60%, transparent 80%, #373a47 80%);
+    background: linear-gradient(
+            to bottom,
+            transparent, transparent 10%,
+            white 10%, white 26%,
+            transparent 26%, transparent 42%,
+            white 42%, white 58%,
+            transparent 58%, transparent 74%,
+            white 74%, white 90%,
+            transparent 90%, transparent
+    );
     content: ""
 }
 
 .static-menu {
     margin: 0;
     padding: 0;
+    background-color: #303030;
     display: none;
     flex-direction: row;
     justify-content: space-between;
@@ -89,11 +99,10 @@ h2 {
 .dynamic-menu-container {
     margin: 0;
     padding: 50px 0;
-    border-top: 1px solid white;
     position: fixed;
     top: 75px;
     bottom: 0px;
-    background-image: radial-gradient(circle at bottom left, rgb(242, 67, 114), rgb(183, 21, 64));
+    background-color: rgb(183, 21, 64);
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -128,6 +137,7 @@ h2 {
     .banner {
         height: 100px;
         padding: 5px 15%;
+        background-color: #474747;
         justify-content: center;
     }
 
@@ -139,8 +149,16 @@ h2 {
         width: 70px;
     }
 
+    .static-menu {
+        display: flex;
+        justify-content: center
+    }
+
+    .static-menu li {
+        width: 20%;
+    }
+
     .title {
-        width: 60%;
         height: 70px;
         margin-left: 40px;
         justify-content: space-around;
@@ -154,8 +172,14 @@ h2 {
         font-size: 1.3em;
         align-self: flex-end;
     }
+}
 
-    .static-menu {
-        display: flex;
+@media (min-width: 1024px) {
+    .title {
+        width: 35%;
+    }
+    
+    .static-menu li {
+        width: 15%;
     }
 }

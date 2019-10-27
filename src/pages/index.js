@@ -22,7 +22,7 @@ export default () => (
                 <p>Hi !</p>
                 <p>
                     I'm Mathieu and I'm a junior web developer.
-                    I've been training for the past two years to become a frontend developer, starting with a mentor.
+                    I've been training for the past two years to become a frontend developer.
                 </p>
                 <p>
                     I'm now using my free time to test new things, build new projects and discover new technologies...
