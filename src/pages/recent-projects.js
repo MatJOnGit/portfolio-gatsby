@@ -3,9 +3,9 @@ import React from "react"
 import styles from './recent-projects.css'
 
 import Header from "../components/header"
-import ProjectBox from "../components/ProjectCard"
+import ProjectCard from "../components/ProjectCard"
 
-import { recentProjectsInfo } from "../data/recentProjectsInfo";
+import { recentProjectsInfo } from "../data/recentProjectsInfo"
 
 export default class RecentProjects extends React.PureComponent {
     render() {
@@ -18,7 +18,7 @@ export default class RecentProjects extends React.PureComponent {
 
                     <ul className={"project-list"}>
                         {recentProjectsInfo.map(projectItem => (
-                            <ProjectBox
+                            <ProjectCard
                                 key={projectItem.name}
                                 name={projectItem.name}
                                 tag={projectItem.tag}

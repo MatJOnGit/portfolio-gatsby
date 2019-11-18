@@ -32,29 +32,37 @@ export default () => (
                 </p>
             </div>
 
-            <ValueBox value="curiosity"></ValueBox>
+            <ul className="value-list">
+                <li className="value-card subtitled">
+                    <ValueBox value="curiosity"></ValueBox>
 
-            <p className={"value-speech subtitled"}>
-                I started self-teaching web development in december 2017, and felt in love with it.
-                That's the moment I decided to make a living out of it.
-            </p>
+                    <p className={"value-speech"}>
+                        I started self-teaching web development in december 2017, and felt in love with it.
+                        That's the moment I decided to make a living out of it.
+                    </p>
+                </li>
 
-            <ValueBox value="rigor"></ValueBox>
+                <li className="value-card subtitled">
+                    <ValueBox value="rigor"></ValueBox>
 
-            <p className={"value-speech subtitled"}>
-                Why I love web development ? Simply because I love being able to create
-                beautiful and powerful websites, always trying to understand the needs
-                and how I can answer it at my best. I'm also monitoring technological developments
-                to always keep my knowledge up.
-            </p>
+                    <p className={"value-speech"}>
+                        Why I love web development ? Simply because I love being able to create
+                        beautiful and powerful websites, always trying to understand the needs
+                        and how I can answer it at my best. I'm also monitoring technological developments
+                        to always keep my knowledge up.
+                    </p>
+                </li>
 
-            <ValueBox value="teamwork"></ValueBox>
+                <li className="value-card">
+                    <ValueBox value="teamwork"></ValueBox>
 
-            <p className={"value-speech"}>
-                What I like the most in this industry ? Always having great people around
-                willing to help each other, and contribute to that spirit by helping future
-                great web developers.
-            </p>
+                    <p className={"value-speech"}>
+                        What I like the most in this industry ? Always having great people around
+                        willing to help each other, and contribute to that spirit by helping future
+                        great web developers.
+                    </p>
+                </li>
+            </ul>
         </div>
     </div>
 )

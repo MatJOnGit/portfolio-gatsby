@@ -1,3 +1,8 @@
+.value-list {
+    padding: 0;
+    list-style: none;
+}
+
 .value-box img {
     width: 100%;;
 }
@@ -65,27 +70,29 @@
         margin: 180px 15% 90px;
     }
 
-    .value-box {
+    .value-card {
         display: flex;
-        justify-content: center;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 40px auto 15px;
     }
 
-    .value-box img {
-        width: 50%;
+    .value-box {
+        margin: 0;
+        width: 40%;
+        height: 220px;
+        overflow: hidden;
     }
 
     .teamwork-value,
     .curiosity-value,
     .rigor-value {
-        bottom: 100px;
+        top: 77px;
+        left: 20%;
     }
 
-    .curiosity-value,
-    .teamwork-value {
-        right: 30%;
-    }
-
-    .rigor-value {
-        left: 30%;
+    .value-speech {
+        width: 55%;
+        margin: auto;
     }
 }
