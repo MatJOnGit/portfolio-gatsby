@@ -21,7 +21,7 @@ export default class DynamicMenu extends React.Component {
                 </ul>
                 <ul className="footer-menu">
                     <li><a href="https://github.com/MatJOnGit">Github</a></li>
-                    <li><a href="https://mobile.twitter.com/MathieuOnTwit">Twitter</a></li>
+                    <li><a href="https://www.twitter.com/MathieuOnTwit">Twitter</a></li>
                     <li><a href="https://www.linkedin.com/in/mathieu-jourdan/">Linkedin</a></li>
                 </ul>
             </div>
