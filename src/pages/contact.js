@@ -13,24 +13,19 @@ export default () => (
         <div className="content">
             <h3>Contact</h3>
 
-            <div className="contact-speech">
+            <div className="contact-container">
                 <img src={require('./../../public/images/photos/beach-developping.jpg')} alt="Beach developping" />
 
-                <p>I'm currently working as a { resumeInfo[0].status.toLowerCase() }. <br/>
-                I'm also working on new projects to be graduated and become a full-time web developer.<br/>
-                Therefore, I'm always looking for new job opportunities.<br/>
-                 if you're looking for a brand new web developer, let's get in touch !</p>
-            </div>
+                <div className="contact-speech">
+                    <p>I'm currently working as a { resumeInfo[0].status.toLowerCase() }.</p>
+                    <p>I'm also working on new projects to graduate and become a full-time web developer.<br/>
+                        Therefore, I'm always looking for new job opportunities.</p>
+                    <p>So ... if you're looking for a brand new web developer with a fresh mind, let's get in touch !</p>
 
-            <div className="coords">
-                <div>
-                    <h4>EMAIL</h4>
-                    <p>contact@m-jourdan.fr</p>
-                </div>
-
-                <div>
-                    <h4>PHONE NUMBER</h4>
-                    <p>06.50.60.22.19</p>
+                    <div className="coords">
+                        <h4>How to contact me ?</h4>
+                        <a href={"mailto:contact@m.jourdan.fr"}>Mail</a>
+                    </div>
                 </div>
             </div>
         </div>

@@ -26,7 +26,6 @@ export default class Resume extends React.PureComponent {
                                 role={jobItem.role}
                                 dates={jobItem.dates}
                                 image={jobItem.image}
-                                backgroundColor={jobItem.backgroundColor}
                             />
                         ))}
                     </ul>

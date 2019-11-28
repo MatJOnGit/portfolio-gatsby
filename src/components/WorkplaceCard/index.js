@@ -28,7 +28,6 @@ export default class WorkplaceCard extends React.Component {
             >
                 <div
                     className={"workplace-header" + (isWorkplaceCardExpanded ? " uncurved-header" : " curved-header")}
-                    style={{backgroundColor: backgroundColor}}
                 >
                     <img
                         src={require("../../../public/images/logos/" + pictureName + ".jpg")}

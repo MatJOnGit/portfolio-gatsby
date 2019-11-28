@@ -1,9 +1,9 @@
-.contact-speech {
+.contact-container {
     display: flex;
     flex-direction: column;
 }
 
-.contact-speech img {
+.contact-container img {
     width: 100%;
 }
 
@@ -26,7 +26,7 @@
 }
 
 .coords h4 {
-    color: black;
+    color: rgb(183, 21, 64);
     margin: 0;
 }
 
@@ -41,8 +41,22 @@
 }
 
 @media (min-width: 1024px) {
-    .contact-speech img {
+    .contact-container  {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .contact-container img {
         width: 50%;
         align-self: center;
+    }
+
+    .contact-speech {
+        width: 45%;
+    }
+
+    .coords {
+        margin-top: 40px;
+        align-items: flex-start;
     }
 }
