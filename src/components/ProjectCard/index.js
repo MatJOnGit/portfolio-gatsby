@@ -50,10 +50,9 @@ export default class ProjectCard extends React.Component {
                         <p><i className="fa fa-bullseye"></i>{goal}</p>
                         <p><i className="fa fa-hashtag"></i>{keywords}</p>
                     </div>
-                    <Splitter/>
                     <div className="project-links">
-                        <p><a href={github}>Github</a></p>
-                        <p><a href={link}>Run project</a></p>
+                        <a href={github}><i className="fa fa-file-code-o"/>Source code</a>
+                        <a href={link}><i className="fa fa-play"/>Go to project</a>
                     </div>
                 </div>
             </li>

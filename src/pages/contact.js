@@ -15,7 +15,7 @@ export default () => (
             <h3>Contact</h3>
 
             <div className="contact-container">
-                <img src={require('./../../public/images/photos/beach-developping.jpg')} alt="Beach developping" />
+                <img src={require('./../../public/images/photos/beach-developping.jpg')} alt="me at the beach" />
 
                 <div className="contact-info">
                     <div className="teaser-container">

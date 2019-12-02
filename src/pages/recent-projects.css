@@ -116,16 +116,37 @@
     border-top: 1px #105e66 solid;
 }
 
+.project-details {
+    margin-bottom: 15px;
+}
+
 .project-details p {
     margin: 0 0 10px 0;
+}
+
+.project-details .fa {
+    margin-right: 5px;
 }
 
 .project-links {
     margin-bottom: 10px;
 }
 
-.project-links p {
+.project-links a {
+    background-color: hsl(0,3%,5%);
     margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(183, 21, 64);
+    text-decoration: none;
+}
+
+.project-links i {
+    margin-right: 5px;
+}
+
+.project-links a:first-child {
+    margin-right: 15px;
 }
 
 .hidden-project-content {

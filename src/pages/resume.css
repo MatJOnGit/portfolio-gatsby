@@ -119,6 +119,10 @@
     margin: 0 0 10px 0;
 }
 
+.workplace-details .fa {
+    margin-right: 5px;
+}
+
 .hidden-workplace-content {
     display: none;
 }
