@@ -21,7 +21,6 @@ export default class RecentProjects extends React.PureComponent {
                             <ProjectCard
                                 key={projectItem.name}
                                 name={projectItem.name}
-                                tag={projectItem.tag}
                                 type={projectItem.type}
                                 languages={projectItem.languages}
                                 role={projectItem.role}

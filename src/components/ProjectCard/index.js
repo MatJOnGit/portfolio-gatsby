@@ -23,7 +23,7 @@ export default class ProjectCard extends React.Component {
 
         return (
             <li
-                className={"project-card "}
+                className={"project-card"}
                 onClick={this.toggleProjectCard}
             >
                 <div className={"project-header"}>

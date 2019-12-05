@@ -1,68 +1,47 @@
-import React from "react"
+import React, { PureComponent } from "react"
 
 import styles from './index.css'
 
 import Header from "../components/header"
+import ValueCard from "../components/ValueCard"
 
-const ValueBox = props => (
-    <div className="value-box">
-        <img src={require('./../../public/images/values/' + props.value + '-opacity.png')} alt={props.value} />
-        <p className={props.value + "-value"}>{"#" + props.value.charAt(0).toUpperCase() + props.value.slice(1)}</p>
-    </div>
-)
+import { valuesInfo } from "../data/valuesInfo"
 
-export default () => (
-    <div className={"wrapper"}>
-        <Header />
+export default class Index extends React.PureComponent {
+    render() {
+        return (
+            <div className={"wrapper"}>
+                <Header/>
 
-        <div className={"content"}>
-            <h3>About me</h3>
+                <div className={"content"}>
+                    <h3>About me</h3>
 
-            <div className={"intro-speech"}>
-                <p>Hi !</p>
-                <p>
-                    I'm Mathieu and I'm a junior web developer.
-                    I've been training for the past two years to become a frontend developer.
-                </p>
-                <p>
-                    I'm now using my free time to test new things, build new projects and discover new technologies...
-                </p>
-                <p className={"subtitled"}>
-                    My goal is simply to find a frontend job in Paris area.
-                </p>
+                    <div className={"intro-speech"}>
+                        <p>Hi !</p>
+                        <p>
+                            I'm Mathieu and I'm a junior web developer.
+                            I've been training for the past two years to become a frontend developer.
+                        </p>
+                        <p>
+                            I'm now using my free time to test new things, build new projects and discover new
+                            technologies...
+                        </p>
+                        <p className={"subtitled"}>
+                            My goal is simply to find a frontend job in Paris area.
+                        </p>
+                    </div>
+
+                    <ul className="value-list">
+                        {valuesInfo.map(valueItem => (
+                            <ValueCard
+                                key={valueItem.name}
+                                name={valueItem.name}
+                                speech={valueItem.speech}
+                            />
+                        ))}
+                    </ul>
+                </div>
             </div>
-
-            <ul className="value-list">
-                <li className="value-card subtitled">
-                    <ValueBox value="curiosity"></ValueBox>
-
-                    <p className={"value-speech"}>
-                        I started self-teaching web development in december 2017, and felt in love with it.
-                        That's the moment I decided to make a living out of it.
-                    </p>
-                </li>
-
-                <li className="value-card subtitled">
-                    <ValueBox value="rigor"></ValueBox>
-
-                    <p className={"value-speech"}>
-                        Why I love web development ? Simply because I love being able to create
-                        beautiful and powerful websites, always trying to understand the needs
-                        and how I can answer it at my best. I'm also monitoring technological developments
-                        to always keep my knowledge up.
-                    </p>
-                </li>
-
-                <li className="value-card">
-                    <ValueBox value="teamwork"></ValueBox>
-
-                    <p className={"value-speech"}>
-                        What I like the most in this industry ? Always having great people around
-                        willing to help each other, and contribute to that spirit by helping future
-                        great web developers.
-                    </p>
-                </li>
-            </ul>
-        </div>
-    </div>
-)
+        )
+    }
+}
