@@ -1,10 +1,11 @@
 import React from "react"
-import 'font-awesome/css/font-awesome.min.css';
+import 'font-awesome/css/font-awesome.min.css'
 
 import styles from './contact.css'
 
 import Header from "../components/header"
 
+import { recentProjectsInfo } from "../data/recentProjectsInfo"
 import { resumeInfo } from "../data/resumeInfo"
 
 export default () => (

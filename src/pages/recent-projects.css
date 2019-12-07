@@ -7,7 +7,7 @@
 .project-card {
     margin-bottom: 20px;
     border-radius: 8px;
-    box-shadow: 2px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 .project-header {

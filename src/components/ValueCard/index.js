@@ -22,9 +22,11 @@ export default class ValueCard extends React.Component {
                         {"#" + name.charAt(0).toUpperCase() + name.slice(1)}
                     </p>
                 </div>
-                <p className={"value-speech"}>
-                    {speech}
-                </p>
+                <div className={"speech-box"}>
+                    <i className="fa fa-quote-left"></i>
+                    <p className={"value-speech"}>{speech}</p>
+                    <i className="fa fa-quote-right"></i>
+                </div>
             </li>
         )
     }

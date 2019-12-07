@@ -1,4 +1,4 @@
-import React, { PureComponent } from "react"
+import React from "react"
 
 import styles from './index.css'
 
@@ -19,14 +19,9 @@ export default class Index extends React.PureComponent {
                     <div className={"intro-speech"}>
                         <p>Hi !</p>
                         <p>
-                            I'm Mathieu and I'm a junior web developer.
-                            I've been training for the past two years to become a frontend developer.
-                        </p>
-                        <p>
+                            I'm Mathieu and I'm a junior web developer. I've been training for the past two years to become a frontend developer.<br/>
                             I'm now using my free time to test new things, build new projects and discover new
-                            technologies...
-                        </p>
-                        <p className={"subtitled"}>
+                            technologies.<br/>
                             My goal is simply to find a frontend job in Paris area.
                         </p>
                     </div>

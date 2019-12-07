@@ -106,12 +106,7 @@ h2 {
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-}
-
-.header-menu,
-.footer-menu {
-    padding: 0;
+    justify-content: flex-start;
 }
 
 .dynamic-menu-container li {

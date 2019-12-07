@@ -1,7 +1,7 @@
 export const valuesInfo = [
     {
         name: 'curiosity',
-        speech: "I started self-teaching web development in december 2017, and felt in love with it." +
+        speech: "I started self-teaching web development in december 2017, and felt in love with it. " +
             "That's the moment I decided to make a living out of it."
     },
     {
