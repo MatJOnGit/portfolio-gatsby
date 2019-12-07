@@ -8,17 +8,20 @@ import ProjectBox from "../ProjectCard";
 export default class DynamicMenu extends React.Component {
     render() {
         const ListLink = props => (
-            <li>
-                <Link to={props.to}>{props.children}</Link>
+            <li className={"link-card curved-header"}>
+                <Link to={props.to}>
+                    <i className={"fa fa-" + props.icon}/>
+                    {props.children}
+                </Link>
             </li>
         )
 
         return (
             <ul className="dynamic-menu-container">
-                <ListLink to="/">About me</ListLink>
-                <ListLink to="/resume/">Resume</ListLink>
-                <ListLink to="/recent-projects/">Recent projects</ListLink>
-                <ListLink to="/contact/">Contact</ListLink>
+                <ListLink to="/" icon="user">About me</ListLink>
+                <ListLink to="/resume/" icon="briefcase">Resume</ListLink>
+                <ListLink to="/recent-projects/" icon="flask">Recent projects</ListLink>
+                <ListLink to="/contact/" icon="address-card">Contact</ListLink>
             </ul>
         )
     }

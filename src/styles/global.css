@@ -29,14 +29,14 @@ body {
 
 header li a {
     text-decoration: none;
-    color: rgb(183, 21, 64);
+    color: hsl(344,79%,40%);
     font-weight: 700;
     font-size: 1.2em;
 }
 
 h3 {
     font-family: 'Caviar Dreams';
-    color: rgb(183, 21, 64);
+    color: hsl(344,79%,40%);
 }
 
 .content {
