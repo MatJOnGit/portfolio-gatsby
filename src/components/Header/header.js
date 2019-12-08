@@ -2,8 +2,8 @@ import React from "react"
 
 import styles from './header.css'
 
-import DynamicMenu from "./DynamicMenu";
-import StaticMenu from "./StaticMenu";
+import DynamicMenu from "./../DynamicMenu"
+import StaticMenu from "./../StaticMenu"
 
 export default class Header extends React.Component {
     state = {
@@ -22,7 +22,7 @@ export default class Header extends React.Component {
         return (
             <header>
                 <div className={"banner"}>
-                    <img src={require('../../public/images/logos/mj-logo.png')} alt={"logo Mathieu Jourdan"}/>
+                    <img src={require('./../../../public/images/logos/mj-logo.png')} alt={"logo Mathieu Jourdan"}/>
                     <div className={"title"}>
                         <h1>Mathieu Jourdan</h1>
                         <h2>Junior frontend developer</h2>

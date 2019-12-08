@@ -1,9 +1,10 @@
-import React from "react"
+import React from 'react'
+
 import 'font-awesome/css/font-awesome.min.css'
 
-import styles from './contact.css'
+import './contact.css'
 
-import Header from "../components/header"
+import Header from '../components/Header/header.js'
 
 import { recentProjectsInfo } from "../data/recentProjectsInfo"
 import { resumeInfo } from "../data/resumeInfo"

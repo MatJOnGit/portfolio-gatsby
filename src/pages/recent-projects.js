@@ -1,11 +1,11 @@
-import React from "react"
+import React from 'react'
 
-import styles from './recent-projects.css'
+import './recent-projects.css'
 
-import Header from "../components/header"
-import ProjectCard from "../components/ProjectCard"
+import Header from '../components/Header/header'
+import ProjectCard from '../components/ProjectCard'
 
-import { recentProjectsInfo } from "../data/recentProjectsInfo"
+import { recentProjectsInfo } from '../data/recentProjectsInfo'
 
 export default class RecentProjects extends React.PureComponent {
     render() {

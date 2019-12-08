@@ -1,11 +1,11 @@
-import React from "react"
+import React from 'react'
 
-import styles from "./resume.css"
+import './resume.css'
 
-import Header from "../components/header"
-import WorkplaceBox from "../components/WorkplaceCard"
+import Header from '../components/Header/header'
+import WorkplaceBox from '../components/WorkplaceCard'
 
-import { resumeInfo } from "../data/resumeInfo"
+import { resumeInfo } from '../data/resumeInfo'
 
 export default class Resume extends React.PureComponent {
     render() {
