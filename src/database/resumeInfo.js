@@ -4,7 +4,7 @@ export const resumeInfo = [
         pictureName: 'helpline',
         status: 'User support tech',
         context: 'Windows 10 deployment and users issues resolution',
-        role: 'Providing computers and mobile phones for new employees, migrating data from old computers to ' +
+        role: 'Providing computers and mobile phones for new employees, migrating database from old computers to ' +
             'more recent setups, managing inventories of computer hardware , training new techs',
         dates: 'August 2019 - now'
     },{

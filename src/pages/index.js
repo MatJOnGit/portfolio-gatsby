@@ -1,11 +1,9 @@
 import React from 'react'
-
 import './index.css'
 
-import Header from '../components/Header/header'
-import ValueCard from '../components/ValueCard'
-
-import { valuesInfo } from '../data/valuesInfo'
+import Header from '../components/Header/Header'
+import ValueCard from '../components/ValueCard/ValueCard'
+import { valuesInfo } from '../database/valuesInfo'
 
 export default class Index extends React.PureComponent {
     render() {

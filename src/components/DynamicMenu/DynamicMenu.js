@@ -1,14 +1,11 @@
-import React from "react"
-import {Link} from "gatsby"
-
-import {recentProjectsInfo} from "../../data/recentProjectsInfo";
-
-import ProjectBox from "../ProjectCard";
+import React from 'react'
+import {Link} from 'gatsby'
+import style from './DynamicMenu.css'
 
 export default class DynamicMenu extends React.Component {
     render() {
         const ListLink = props => (
-            <li className={"link-card curved-header"}>
+            <li className={"link-card curved"}>
                 <Link to={props.to}>
                     <i className={"fa fa-" + props.icon}/>
                     {props.children}

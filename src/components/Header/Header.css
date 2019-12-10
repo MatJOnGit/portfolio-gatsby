@@ -8,6 +8,13 @@ header {
     font-family: 'Caviar Dreams';
 }
 
+header li a {
+    text-decoration: none;
+    color: hsl(344,79%,40%);
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
 .banner {
     height: 65px;
     padding: 5px 5%;
@@ -15,7 +22,7 @@ header {
     position: relative;
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -75,80 +82,6 @@ h2 {
     content: ""
 }
 
-.static-menu {
-    margin: 0;
-    padding: 0;
-    background-color: hsl(0,3%,5%);
-    display: none;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    color: #FFF;
-}
-
-.static-menu li {
-    margin: 0;
-    width: 25%;
-    height: 100%;
-    list-style: none;
-    padding: 10px 0;
-    text-decoration: none;
-}
-
-.dynamic-menu-container {
-    margin: 0;
-    padding: 50px 5%;
-    position: fixed;
-    top: 75px;
-    bottom: 0px;
-    background-color: hsl(344,79%,40%);
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.dynamic-menu-container li {
-    padding: 0;
-    list-style: none;
-}
-
-.dynamic-menu-container a {
-    display: block;
-    position: relative;
-    width: 100%;
-    margin: 0;
-    padding: 12px 20px;
-    color: white;
-    cursor: pointer;
-}
-
-.link-card {
-    width: 40%;
-    height: 25vh;
-    background-color: hsl(344,79%,29%);
-    margin: 0 2.5% 10px;
-}
-
-.link-card a {
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.link-card i {
-    margin-bottom: 10px;
-    font-size: 4em;
-}
-
 @media (min-width: 768px) {
     header {
         height: 150px;
@@ -170,15 +103,6 @@ h2 {
         height: 120px;
     }
 
-    .static-menu {
-        display: flex;
-        justify-content: center
-    }
-
-    .static-menu li {
-        width: 20%;
-    }
-
     .title {
         height: 70px;
         margin-left: 40px;
@@ -198,9 +122,5 @@ h2 {
 @media (min-width: 1024px) {
     .title {
         width: 35%;
-    }
-
-    .static-menu li {
-        width: 15%;
     }
 }

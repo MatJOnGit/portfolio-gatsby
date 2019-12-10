@@ -1,6 +1,7 @@
 import React from "react"
 import PropTypes from 'proptypes'
-import Splitter from "../Splitter"
+import Splitter from '../Splitter/Splitter'
+import style from './WorkplaceCard.css'
 
 export default class WorkplaceCard extends React.Component {
     static propTypes = {
@@ -18,7 +19,7 @@ export default class WorkplaceCard extends React.Component {
     }
 
     render() {
-        const { name, pictureName, status, dates, context, role, backgroundColor } = this.props
+        const { name, pictureName, status, dates, context, role } = this.props
         const { isWorkplaceCardExpanded } = this.state
 
         return (
@@ -27,16 +28,16 @@ export default class WorkplaceCard extends React.Component {
                 onClick={this.toggleWorkplaceCard}
             >
                 <div
-                    className={"workplace-header" + (isWorkplaceCardExpanded ? " uncurved-header" : " curved-header")}
+                    className={"workplace-header" + (isWorkplaceCardExpanded ? " uncurved" : " curved")}
                 >
                     <img
                         src={require("../../../public/images/logos/" + pictureName + ".jpg")}
                         alt={"logo " + pictureName}
-                        className={isWorkplaceCardExpanded ? "uncurved-image" : "curved-image"}
+                        className={isWorkplaceCardExpanded ? "uncurved" : "curved"}
                     />
                     <div className={
                         "workplace-layer" +
-                        (isWorkplaceCardExpanded ? " hidden-layer" : "")
+                        (isWorkplaceCardExpanded ? " hidden" : "")
                     }>
                         <h4>{name}</h4>
                         <Splitter/>

@@ -1,0 +1,36 @@
+.splitter {
+    align-self: center;
+    margin: 5px 0;
+}
+
+.empty-circle {
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    position: relative;
+    border-radius: 50%;
+    border: 1px white solid;
+}
+
+.empty-circle:before,
+.empty-circle:after {
+    content: "";
+    position: absolute;
+    border-top: 1px white solid;
+    top: 50%;
+    width: 75px;
+}
+
+.empty-circle:before {
+    right: 101%;
+}
+
+.empty-circle:after {
+    left: 101%;
+}
+
+@media (min-width: 1024px) {
+    .splitter {
+        display: none;
+    }
+}

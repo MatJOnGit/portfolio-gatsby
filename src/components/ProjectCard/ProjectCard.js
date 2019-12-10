@@ -1,6 +1,7 @@
-import React from "react"
+import React from 'react'
 import PropTypes from 'proptypes'
-import Splitter from "../Splitter"
+import style from './ProjectCard.css'
+import Splitter from '../Splitter/Splitter'
 
 export default class ProjectCard extends React.Component {
     static propTypes = {
@@ -18,7 +19,7 @@ export default class ProjectCard extends React.Component {
     }
 
     render() {
-        const { name, type, language, role, goal, keywords, github, link, image } = this.props
+        const { name, role, goal, keywords, github, link, image } = this.props
         const { isProjectCardExpanded } = this.state
 
         return (
@@ -30,7 +31,7 @@ export default class ProjectCard extends React.Component {
                     <img
                         src={require('./../../../public/images/projects-render/' + image + '.jpg')}
                         alt={'logo ' + name}
-                        className={isProjectCardExpanded ? "uncurved-image" : "curved-image"}
+                        className={isProjectCardExpanded ? "uncurved" : "curved"}
                     />
                     <div className={
                         "project-layer" +

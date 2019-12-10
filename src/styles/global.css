@@ -7,15 +7,6 @@
         url("../../public/fonts/CaviarDreams_Bold.ttf");
 }
 
-@font-face {
-     font-family: 'Raleway';
-     font-style: normal;
-     font-weight: 400;
-     src:
-         local('Raleway-regular'),
-         url("../../public/fonts/Raleway-Medium.ttf");
- }
-
 html {
     font-family: Open Sans, sans-serif;
     font-size: 0.8em;
@@ -27,20 +18,14 @@ body {
     color: white;
 }
 
-header li a {
-    text-decoration: none;
-    color: hsl(344,79%,40%);
-    font-weight: 700;
-    font-size: 1.2em;
+.content {
+    margin: 91px 10% 50px;
 }
 
 h3 {
     font-family: 'Caviar Dreams';
     color: hsl(344,79%,40%);
-}
-
-.content {
-    margin: 91px 10% 50px;
+    text-align: center;
 }
 
 .rounded {
@@ -52,24 +37,12 @@ h3 {
     box-shadow: 3px 3px darkgrey;
 }
 
-.curved-header {
+.curved {
     border-radius: 8px;
 }
 
-.uncurved-header {
+.uncurved {
     border-radius: 8px 8px 0 0;
-}
-
-.curved-image {
-    border-radius: 8px;
-}
-
-.uncurved-image {
-    border-radius: 8px 8px 0 0;
-}
-
-h3 {
-    text-align: center;
 }
 
 @media (min-width: 768px) {

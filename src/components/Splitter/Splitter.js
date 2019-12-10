@@ -1,5 +1,5 @@
-import React from "react"
-import {Link} from "gatsby";
+import React from 'react'
+import style from './Splitter.css'
 
 export default class Splitter extends React.Component {
     render() {

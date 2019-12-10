@@ -1,5 +1,6 @@
 import React from "react"
 import PropTypes from 'proptypes'
+import style from './ValueCard.css'
 
 export default class ValueCard extends React.Component {
     static propTypes = {

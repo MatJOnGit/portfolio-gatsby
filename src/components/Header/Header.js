@@ -1,9 +1,7 @@
-import React from "react"
-
-import styles from './header.css'
-
-import DynamicMenu from "./../DynamicMenu"
-import StaticMenu from "./../StaticMenu"
+import React from 'react'
+import style from './Header.css'
+import DynamicMenu from '../DynamicMenu/DynamicMenu'
+import StaticMenu from '../StaticMenu/StaticMenu'
 
 export default class Header extends React.Component {
     state = {
